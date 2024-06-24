@@ -1,0 +1,71 @@
+\section{Colusión en Bertrand y Cournot}
+Suponga que en China debido al coronavirus solo han quedado dos empresas que comercian animales exóticos para consumo. Ambas empresas tienen los mismos costos marginales, iguales a $c$, y venden un producto homogéneo. La demanda inversa de mercado que enfrentan está dada por $P=A-Q$. Las firmas están estudiando la posibilidad de coludirse en diferentes escenarios, para ello consideremos que las firmas descuentan los beneficios futuros a un factor $\delta$ y ante un desvío aplican la estrategia gatillo. Con esto se le pide que responda lo siguiente:
+
+\begin{enumerate}
+  \item Derive la condición que debe cumplir $\delta$ para que la colusión sea sostenible y encuentre el valor del factor $\delta^{C}$ que hace posible la colusión si estas firmas compiten en cantidades, y el factor $\delta^{B}$ que hace posible la colusión si estas firmas compiten en precios. Considere que al coludirse se reparten los beneficios equitativamente.
+  \begin{solution}
+    Para que una estrategia colusiva sea sostenible, se debe cumplir que los beneficios de la colusión sea mayores o iguales a los de desvío y competencia.
+    \begin{align*}
+        VP(\text { colusión }) \geq VP(\text { desvío }) \\
+        \sum_{i=0}^{\infty} \delta^{i} \pi^{C} \geq \pi^{D}+\sum_{i=1}^{\infty} \delta^{i} \pi^{N}
+    \end{align*}
+    Aplicamos la suma geométrica para llegar a un delta que cumpla la condición de colusión.
+    \begin{align*}
+        \frac{\pi^{C}}{1-\delta} &\geq \pi^{D}+\delta \frac{\pi^{N}}{1-\delta} \\
+        \pi^{C} &\geq \pi^{D}(1-\delta)+\delta \pi^{N} \\
+        \delta\left(\pi^{D}-\pi^{N}\right) &\geq \pi^{D}-\pi^{C} \\
+        \delta &\geq \frac{\pi^{D}-\pi^{C}}{\pi^{D}-\pi^{N}}
+    \end{align*}
+    Solo hace falta calcular los pagos para cada caso y así encontrar el $\delta$ mínimo que cumpla la condición. Los pagos dependerán de la competencia así que vamos caso por caso.
+
+    \rule{\linewidth}{0.4pt} 
+    \textbf{Bertrand} 
+    
+    Los beneficios de coludirse bajo competencia en precios son los beneficios monopólicos repartidos en ambas firmas.
+    \begin{align*}
+        \pi^{C}= \frac{\pi^{M}}{2}= \frac{(A-c)^{2}}{8}
+    \end{align*}
+    Los beneficios de desvío son iguales a los beneficios monopólicos. 
+    \begin{align*}
+        \pi^{D}=\pi^{M}=\frac{(A-c)^{2}}{4}
+    \end{align*}
+    Y los beneficios de no cooperar son $\pi^{N}=0$. Luego, reemplazando en la condición de colusión.
+    \begin{align*}
+        \delta^{B}=\frac{\pi^{D}-\pi^{C}}{\pi^{D}-\pi^{N}}=\frac{\frac{(A-c)^{2}}{4}-\frac{(A-c)^{2}}{8}}{\frac{(A-c)^{2}}{4}-0}=\frac{\frac{(A-c)^{2}}{8}}{\frac{(A-c)^{2}}{4}}=\frac{1}{2} \\
+        \delta^{B}=\frac{1}{2}
+    \end{align*}
+
+    \rule{\linewidth}{0.4pt} 
+    \textbf{Cournot}
+    
+    Los beneficios colusivos son iguales al caso de competencia en precios.
+    \begin{align*}
+        \pi^{C}=\frac{\pi^{M}}{2}=\frac{(A-c)^{2}}{8}
+    \end{align*}
+    Luego, los beneficios de competir los obtenemos de la siguiente forma. Primero, de la maximización de la firma $i$, obtenemos la función de reacción de la firma $i$.
+    \begin{equation*}
+        q_{i}=\frac{A-q_{j}-c}{2}
+    \end{equation*} 
+    Luego, la cantidad que produce cada firma es $q_{i}=\frac{A-c}{3}$, la cantidad total $Q=\frac{2(A-c)}{3}$ y el precio $P=\frac{A+2 c}{3}$. Entonces los beneficios no colusivos son
+    \begin{equation*}
+        \pi^{N}=\frac{(A-c)^{2}}{9}
+    \end{equation*} Para calcular los beneficios de desvío reemplazamos la cantidad colusiva de la firma $i$ en la función de reacción de la firma $j$.
+    \begin{align*}
+        q_{j}^{D}=\frac{A-q_{i}^{C}-c}{2}=\frac{A-\frac{A-c}{4}-c}{2}=\frac{3(A-c)}{8}
+    \end{align*}
+    Los beneficios de desviarse son
+    \begin{align*}
+        \pi^{D}=\frac{9(A-c)^{2}}{64}
+    \end{align*}
+    Finalmente reemplazamos en la condición de colusión.
+    \begin{align*}
+        \delta^{C}=\frac{\pi^{D}-\pi^{C}}{\pi^{C}-\pi^{N}}=\frac{\frac{9(A-c)^{2}}{64}-\frac{(A-c)^{2}}{8}}{\frac{9(A-c)^{2}}{64}-\frac{(A-c)^{2}}{9}} \\
+        \delta^{C} \geq \frac{9}{17} \approx 0,53
+    \end{align*}
+  \end{solution}
+    \item ¿Bajo que tipo de competencia es más factible la colusión?
+
+    \begin{solution}
+    De la parte anterior se tiene que $\delta^{C}>\delta^{B}$ por lo tanto es más fácil coludirse en Bertrand debido a que el castigo es más severo que en Cournot.
+    \end{solution}
+\end{enumerate}

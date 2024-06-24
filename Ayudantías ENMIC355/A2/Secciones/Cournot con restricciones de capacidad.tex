@@ -1,0 +1,50 @@
+\section{Bertrand con restricciones de capacidad}
+
+Suponga un mercado con dos firmas que compiten en precios, ofreciendo un producto homogéneo. Considere además que la demanda de mercado corresponde a $Q(p) = 90 -3p$, y las funciones de costo de las firmas son idénticas e iguales a $C(q) = 5q$. Finalmente, es ampliamente conocido que las firmas poseen una capacidad máxima $k$ a producir.
+
+\begin{itemize}
+    \item [\textbf{a.-}] ¿Qué sucede si $k\geq 75$? ¿Qué sucede en caso de que $k<75$?
+    \begin{solution}
+        Dado que en equilibrio tenemos $p = c = 5$, entonces la demanda será 
+        \begin{equation*}
+            Q(p= 5) = 90-15 - 3\cdot 5 = 75
+        \end{equation*}
+        Por lo que si $k\geq 75$ cada firma es capaz de bastecer a todo el mercado y se genera competencia a la Bertrand. Si $k<75$, una sola firma no es capaz de bastecer a todo el mercado y habrá espacio para actuar sobre la residual.
+    \end{solution}
+    \item [\textbf{b.-}] Ahora considere la situación en que $k = 15$. ¿Qué sucede con las firmas en el mercado?
+    \begin{solution}
+        En este tipo de casos con capacidad simétrica las empresas se adelantarán a lo que hará la otra firma. Desde el punto de vista de la firma $1$ se asume que la firma $2$ vende toda su capacidad ($k =15$) a un precio menor, por supuesto de racionamiento eficiente los más dispuestos a pagar compraran esta oferta. Finalmente tendremos una demanda residual a la que la firma $1$ tendrá que maximizar beneficios. Matemáticamente esto es,  
+        \begin{equation*}
+            Q^r = 90-k-3p = 75-3p
+        \end{equation*}
+        Por lo tanto, la maximización de beneficios está dada por
+        \begin{align*}
+            \max_{p_1} \quad &\Pi_1 = (p-5)(75-3p) \\
+            \textbf{CPO:}\quad &\frac{\partial \Pi_1}{\partial p_1} = 75 -6p +15 = 0 \\
+            &p = 15
+        \end{align*}
+        Por lo tanto el $Q^r$ será $75-3\cdot 15 = 30$. \textbf{Sin embargo}, esto no es factible, como dice el enunciado $k=15<30$ a pesar de que la demanda sea $30$ no se puede satisfacer por completo. Dado que no se puede ofrecer $30$, se tendrá que ofrecer lo máximo: $15$, por lo que lo racional sería subir el precio hasta que sólo se vendan $15$ unidades.
+        
+        Debemos encontrar un precio de equilibrio donde la cantidad demandada del residual sea igual a $15$.
+        \begin{align*}
+            75-3p= 15 \\
+            p = 20
+        \end{align*}
+
+        Finalmente podemos decir que una de las empresas ofreció lo máximo que se podía $k = 15$, dada la demanda residual $Q^r = 75-3p$ se ofrece lo máximo que se puede $k =15$ a un precio $20$. 
+
+        Acabamos de determinar la producción y precio de la firma $1$ dado que la firma $2$ vendió toda su capacidad. Por el otro lado \textbf{la firma $2$ va a hacer el mismo razonamiento}, pensando que la firma $1$ venderá toda su capacidad a un precio menor. Por tanto se concluye que \textbf{las dos firmas venden $15$ a un precio $20$. }
+    \end{solution}
+    \item [\textbf{c.-}] ¿Qué ocurriría en caso de que las empresas pudieran primero elegir sus capacidades y luego competir por precios?
+    \begin{solution}
+        Si las empresas eligen primeros sus capacidades y luego sus precios, las empresas elegirían capacidad iguales a las cantidad de Cournot y precios iguales al precio de mercado con competencia a la Cournot. Esto implica que: con capacidad (un supuesto muy realista es que las empresas siempre tienen restricciones a la capacidad), los precios están por encima del coste marginal y las empresas ganan beneficios positivos. En realidad, lo que observamos en el mercado es idéntico a lo que observaríamos si compitieran en cantidades: suponer que las empresas elegían cantidades, no era algo tan erróneo como parecía inicialmente. 
+        \begin{itemize}
+            \item Cuando hay restricciones de capacidad se suaviza la competencia. Los precios de equilibrio no son tan bajos y tenemos que $p> c$ y las empresas tienen beneficios postivios
+            \item Las empresas evitan acumular demasiada capacidad para suavizar la competencia en precios, es como un compromiso de que no bajarán mucho los precios.
+            \item Ejemplos en dode la elección de capacidad es importante: Hoteles, líneas aéreas
+            \item El restultado de juego en 2 etapas coincide con el de Cournot si las capacidades son interpretadas como cantidades.
+            \item \textbf{\href{https://www.eco.uc3m.es/~mmachado/Teaching/Industrial2007_2008/3.5.Competenciaenpreciosconrestriccionesdecapacidad_new.pdf}{\underline{Fuente}}} 
+            \item \textbf{\href{https://www.eco.uc3m.es/~mmachado/Teaching/Industrial2007_2008/Industrial2006_07/3.4.Competenciaenpreciosconrestriccionesdecapacidad.pdf}{\underline{Más información}}}  
+        \end{itemize}
+    \end{solution}
+\end{itemize}

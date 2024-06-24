@@ -1,0 +1,82 @@
+\documentclass{exam}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}		
+\usepackage{amsmath}						
+\usepackage{amsthm}							
+\usepackage{amssymb}						
+\usepackage{graphicx} 					
+\usepackage{float}						
+\usepackage{verbatim}					
+\usepackage{url}								
+\usepackage{subfig}				 
+\usepackage{psfrag}			
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[bottom]{footmisc}
+\usepackage{bigstrut}
+\usepackage{multirow,array}
+\usepackage{color}
+\definecolor{ceruleanblue}{rgb}{0.16, 0.32, 0.75}
+\definecolor{coolblack}{rgb}{0.0, 0.18, 0.39}
+\definecolor{darkgreen}{rgb}{0.0, 0.2, 0.13}
+\usepackage{multirow,hhline}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black, % Color del enlace interno (por ejemplo, índice)
+    urlcolor=black, % Color de los enlaces URL
+    citecolor=black, % Color de las citas
+}
+\usepackage{tikz}
+
+% Paquetes para modificar los márgenes
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+
+\pagestyle{headandfoot}					
+\headrule 										
+
+\firstpageheader{\includegraphics[scale=0.2]{Imágenes/Logo2.png}}{}{\scriptsize{Departamento de Economía} \\ \scriptsize{Facultad de Economía y Negocios}}
+\runningheader{\scriptsize{\includegraphics[scale=0.2]{Imágenes/logo2.png}}}{\scriptsize Microeconomía II \\ \scriptsize{Otoño 2024}} {\scriptsize{Departamento de Economía} \\ \scriptsize{Facultad de Economía y Negocios}}
+
+\footrule
+\footer{}{\scriptsize{P\'agina \thepage\ de \numpages}}{}
+\parindent = 0pt
+\renewcommand\partlabel{(\thepartno.)}
+\renewcommand\thesubpart{\roman{subpart}}
+
+
+%\printanswers  
+\renewcommand{\solutiontitle}{\noindent\textbf{Respuesta:}\par\noindent\sffamily}
+
+% Aumentar el tamaño de la fuente
+\renewcommand\familydefault{\sfdefault}
+\renewcommand{\rmdefault}{phv} % Usa Helvética como la fuente por defecto
+\renewcommand{\arraystretch}{1.5} % Aumentar el espaciado entre filas
+
+\begin{document}
+
+\begin{center}
+
+\LARGE{\textbf{Microeconomía II}}
+
+\medskip
+\normalsize \textbf{Profesora:} Paola Bordón T.
+
+\normalsize \textbf{Ayudantes:} Ayelen Sandoval y Joaquín Martínez\footnote{joamartine@fen.uchile.cl}
+
+
+\medskip
+\large{\textbf{Ayudantía 4}}
+\end{center}
+
+\tableofcontents
+
+\section{Teoría de juegos: Secuenciales y repetidos}
+
+\input{Secciones/Matemático colusión para dos.tex}
+\input{Secciones/Propuesto.tex}
+
+\end{document}

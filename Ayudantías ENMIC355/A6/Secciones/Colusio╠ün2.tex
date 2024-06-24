@@ -1,0 +1,25 @@
+\section{Colusión en mercados en expansión y declive}
+
+Suponga un mercado donde $n$ empresas simétricas compiten en precios con productos homogéneos. Suponga que las ganancias monopólicas crecen cada período a una tasa $g$. Suponga que la tasa de descuento de cada firma es $\rho$. Derive la condición para $\rho$ para que la colusión sea sostenible en esta industria. Comente el efecto que tiene que sea una industria en expansión ($g>0$) o declive ($g<0$) pra sostenibilidad de la colusión.
+
+\begin{solution}
+    Bajo estrategia de cousión los pagos se incrementan en cada período en $1+g$, por lo tanto, las ganancias de seguir con la estrategia de colusión en un período cualquiera serían,
+    \begin{align*}
+        VP(\text{Colusión}) &= \frac{\pi^M}{n} + \delta \frac{(1+g)\pi^M}{n} + \delta^2 \frac{(1+g)^2 \pi^M}{n} + \ldots + \delta ^t \frac{(1+g)^t \pi^M}{n} \\
+        VP(\text{Colusión}) &= \frac{\pi^M}{n(1-\delta(1+g))}
+    \end{align*}
+    El pago por desviarse sigue siendo el pago monopólico por una vez por lo que no se ve afectado por la tasa $g$, y el pago en la etapa de castigo es cero. Por lo tanto, la condición de sostenibilidad es:
+    \begin{align*}
+        VP(\text{Colusión}) &\geq VP(\text{Desvío}) \\
+        \frac{\pi^M}{n(1-\delta(1+g))} &\geq \pi^M \\
+        1 & \geq n(1-\delta(1+g)) \\
+        \frac{1}{n}-1 & \geq -\delta (1+g) \\
+        1-\frac{1}{n} &\leq \delta (1+g)
+    \end{align*}
+    Considere que podemos denotar $\delta$ como $\frac{1}{1+\rho}$ donde $\rho \in [0,+\infty)$ se interpreta como una tasa de impaciencia. Aumentos en $\rho$ (\textit{aumentos en impaciencia}) disminuye el $\delta$, poniendo más difícil que sea el descuento mínimo necesario para sostener la colusión.
+    \begin{align*}
+        \frac{1-\frac{1}{n}}{1+g} &\leq \frac{1}{1+\rho} \\
+        \boxed{\rho \geq \frac{1+g}{1-\frac{1}{n}}} & \text{ o bien, } \boxed{\delta \geq \frac{1-\frac{1}{n}}{1+g}}
+    \end{align*}
+     Por lo tanto, si $g<0$ se hace más difícil sostener la colusión ($\frac{\partial \delta}{\partial g}<0$). En otras palabras, la tasa de descuento máxima que se sostiene la colusión es menor. Esto refleja el hecho de que, si el crecimiento es negativo, los pagos futuros de seguir coludidos son menos atractivos y la tentación del desvío mayor. Lo opuesto ocurre si $g$ es positivo.
+\end{solution}

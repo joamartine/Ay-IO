@@ -1,0 +1,45 @@
+\section{Cournot con asimetría de costos}
+
+La las firmas $i \in \{1,2\}$ compiten a la Cournot, la firma $1$ es más eficiente que su competencia por lo que $c_1<c_2$. 
+
+\begin{itemize}
+    \item [\textbf{a.-}] Encuentre las funciones de reacción para ambas firmas. Suponga una demanda lineal cualquiera.
+    \begin{solution}
+        Planteamos el problema de maximización para la firma $1$. 
+        \begin{align*}
+            &\max_{q_1} \quad \Pi_1 = (P-c_1)q_1 = (A-q_1-q_2-c_1)q_1\\
+            &\textbf{CPO:} \quad \frac{\partial \Pi_1}{\partial q_1} = A-2q_1-q_2-c_1 = 0\\
+            &q^*_1(q_2) = \frac{A-q_2-c_1}{2}
+        \end{align*}
+        El proceso es simétrico para la firma $2$.
+        \begin{align*}
+            q^*_2(q_1) = \frac{A-q_1-c_2}{2}
+        \end{align*}
+    \end{solution}
+    \item [\textbf{b.-}] Dadas las funciones de reacción encuentra la producción de cada una de ellas y de una explicación intuitiva del resultado.
+    \begin{solution}
+        Para encontrar las producciones debemos de reemplazar una de las reacciones en la otra.
+        \begin{align*}
+            q_1 = \frac{A-c_1}{2} - \frac{A-q_1-c_2}{4} &= \frac{2A-2c_1-A+q_1+c_2}{4} = \frac{A-2c_1+q_1+c_2}{4} \\
+            4q_1-q_1 &= A-2c_1+c_2 \\
+            q_1 &= \frac{A-2c_1+c_2}{3}
+        \end{align*}
+        Ahora tenemos una expresión para $q_1$, el proceso es el mismo para $q_2$.
+        \begin{align*}
+            q_2 = \frac{A-2c_2+c_1}{3}
+        \end{align*}
+        Dado que la firma $1$ es más eficiente $q_1>q_2$,
+        \begin{equation*}
+            \frac{A-2c_1+c_2}{3} > \frac{A-2c_2+c_1}{3}
+        \end{equation*}
+        Por ejemplo si la firma $1$ fuera el doble de eficiente que su competencia, $c_2 = 2c_1$ y la diferencia de producción sería
+        \begin{align*}
+            \frac{A-c_2+c_2}{3} - \frac{A-2c_2 + 0.5c_2}{3} = \frac{A+1,5c_2}{3}
+        \end{align*}
+        El aumento de la producción $q_1$ frente a $q_2$ sería de $1/2$ por cada unidad marginal de $c_2$.
+
+        Si es que le gana la curiosidad, puede calcular también cómo cambian los beneficios ante un aumento en la asimetría de costos.
+
+        También véase \textbf{\href{https://www.geogebra.org/calculator/wvmvmtvj}{\underline{link}}} 
+    \end{solution}
+\end{itemize}

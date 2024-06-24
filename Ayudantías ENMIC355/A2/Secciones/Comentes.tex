@@ -1,0 +1,78 @@
+\section{Comentes}
+
+\begin{itemize}
+    \item [\textbf{a.-}] Discuta que ocurría en competencia a la cournot al variar el número de empresas $n$ que componen el mercado. ¿Qué sentido tiene desde la función de reacción? ¿Qué sucedería al tender a infinito? 
+    \begin{solution}
+        Planteamos el problema matemáticamente para tener claridad de las variables que están en juego. Estamos hablando sobre firmas indexadas como $i \in \{1,2,3,\ldots, n \}$ y por simplicidad asumiremos que son simétricas, es decir que los costos marginales de todas las firmas son iguales y denotados como $c$. La cantidad producida (oferta) y la demanda van a estar dadas por
+        \begin{align}
+            Q &= \sum^n_{i = 1}q_i = n\cdot q \\
+            Q(P) &= A-P
+        \end{align}
+        Claramente a mayor cantidad total menor precio de mercado, si todas las empresas producen lo mismo entonces mientras más empresas hayan menor será el precio. Podemos denotar la demanda inversa como, 
+        \begin{equation}
+            P = A - q_1 - q_2 -\ldots -q_n = A-n\cdot q
+        \end{equation}
+        La intuición de esto es que las empresas se cuidan de no producir mucho para no desplomar el precio, es parte de la interdependencia monopólica de estos modelos. Para formalizar la respuesta de una firma $i$ ante las demás firmas $-i$ debemos de plantear el problema de maximización y reemplazar la función inversa de demanda. 
+        \begin{align}
+            \max_{q_i} \quad \Pi_1 = (P-c)q_1 \notag \\
+            \max_{q_i} \quad \Pi_1 = (A - q_1 - q_2 -\ldots -q_n - c)q_1 \notag \\
+            \textbf{CPO:}\quad \frac{\partial \Pi_1}{\partial q_1} = A - 2q_1 - q_2 - \ldots -q_n -c = 0 \notag \\
+            q_1 = \frac{A - q_2 - \ldots - q_n - c}{2} \notag \\
+            q_1^*(q_{-i}) = \frac{A-c - \sum^{n}_{i = 2}q_i}{2} \label{eq: funcion de reacción cournot n firmas}
+        \end{align}
+        En \ref{eq: funcion de reacción cournot n firmas} la respuesta de cantidad a producir de la firma $1$ ante las decisiones de las demás firmas. 
+
+        Dado que las firmas son simétricas y todas juegan al mismo tiempo todas producirán lo mismo, por lo que podemos reemplazar todos los $q_i$ como $q$. La funcion de reacción de una empresa cualquiera será entonces
+        \begin{equation*}
+            q  = \frac{A-c-q(n-1)}{2}
+        \end{equation*}
+        Ya podemos sacar producción de cada firma, precio y beneficios. 
+        \begin{align}
+            q_i = \frac{A-c}{1+n} \\
+            P = \frac{A+nc}{1+n}
+        \end{align}
+        Gráficamente sería \textbf{\href{https://www.geogebra.org/calculator/ukq5pqgf}{\underline{link}}}. Cuando $n$ tienda a infinito nos encontramos en competencia perfecta, $P = c$.
+    \end{solution}
+    \item [\textbf{b.-}] Compare las competencias a la Cournot y Bertrand. ¿Qué mercados son mejor explicados por cada modelo? 
+    \begin{solution}
+        La característica más evidente es la variable que manejan las empresas para competir. En Cournot la competencia es menos fuerte que en Bertrand. 
+        
+        Si la capacidad y producción se pueden ajustar rápidamente, el modelo de Bertrand es más apropiado (Software, seguros, banca). Si la capacidad no se pueden ajustar en el corto plazo, el modelo de Cournot es más apropiado (Cemento, autos, electricidad, commodities en general).
+    \end{solution}
+    \item [\textbf{c.-}] El índice de Lerner corresponde a una medida de poder de mercado, que indica cuanto puede cobrar una empresa por sobre su costo marginal. Este siempre se puede expresar como el inverso de la elasticidad precio-demanda por el bien.
+    \begin{solution}
+        Falso. Si bien la definición del índice es correcta, puesto a que este muestra cuanto se puede desviar una firma del equilibrio de competencia perfecta ($P=c$), no siempre se cumplirá que es el inverso de la elasticidad. Generalmente es correcto decir que $L = \frac{1}{|\epsilon|}$ , pero existen casos en que esto no se cumple, como por ejemplo un monopolio multiproducto. En este caso, como la demanda de ambos bienes depende del precio del otro, el índice es diferente. Esto para interiorizar las decisiones que toma en ambos bienes, para así no generar pérdidas en sus beneficios.
+        \begin{align*}
+            L_1 = \frac{p_1-c_1}{p_1} = \frac{1}{|\epsilon|} + \frac{p_2-c_2}{p_2}\cdot \frac{\partial D_2 / \partial p_1}{\partial D_1 / \partial p_1}
+        \end{align*}
+        Cuando las demandas de los bienes del monopolio multiproducto la regla de elasticidad inversa no se cumple.
+
+        \rule{\linewidth}{0.4pt}
+        En más detalle, en caso de que los bienes sean sustitutos $\partial D_2 / \partial p_1> 0$,
+        \begin{align*}
+            L_1^{\text{Multiproducto}} = \frac{p_1-c_1}{p_1} = \frac{1}{|\epsilon|} + \frac{p_2-c_2}{p_2}\cdot \frac{\partial D_2 / \partial p_1}{\partial D_1 / \partial p_1} > \frac{1}{|\epsilon|} = L_1^{\text{Uniproducto}}
+        \end{align*}
+        Por el contrario con bienes complementarios $\partial D_2 / \partial p_1<0$, entonces
+        \begin{align*}
+            L_1^{\text{Multiproducto}} = \frac{p_1-c_1}{p_1} = \frac{1}{|\epsilon|} + \frac{p_2-c_2}{p_2}\cdot \frac{\partial D_2 / \partial p_1}{\partial D_1 / \partial p_1} < \frac{1}{|\epsilon|} = L_1^{\text{Uniproducto}}
+        \end{align*}
+    \end{solution}
+    \item [\textbf{d.-}] La competencia en precios en un mercado lleva a la disipación total de las rentas.
+    \begin{solution}
+        \textbf{Incierto.} La afirmación es verdadera siempre que las firmas que compiten sean simétricas en cuanto a costos.
+
+        En un caso alternativo en el que dos firmas compiten pero el costo marginal de la firma $1$ es menor que el de la firma $2$ el equilibrio de Nash se logrará con la firma $1$ abasteciendo a todo el mercado y cobrando un precio infinitesimalmente inferior al costo marginal de la firma $2$.
+
+        Entonces, dado que la firma $2$ va a fijar un precio $p_2 = c_2$ la mejor estrategia que debería implementar la firma $1$ en base a su función de reacción es la de la situación intermedia, tal como mencionamos en el párrafo anterior, el precio que fijará la firma $1$ será $p_1 = p_2 - \epsilon$ con $\epsilon \approx 0$. Véase la función de reacción de la firma $1$ dada una demand  $P = A-Q$:
+        \begin{align*}
+            p^*_1(p_2)= \left\{ \begin{array}{lcc} p_1^M = \frac{A+c}{2} & \text{si} &  p_2> p_1^M \\ \\ p_2-\epsilon & \text{si} & p_1^M \geq p_2>c_1 \\ \\ c_1 & \text{si} & c_1 \geq p_2 \end{array} \right.
+        \end{align*}
+        En este caso las rentas serán
+        \begin{align*}
+            \Pi_1 &= (p-c_1)q_1(p) \\
+            & = (c-2-\epsilon -c_1)q_1(c_2-\epsilon) \\
+            &=(c_2-\epsilon -c_1)(A-(c_2-\epsilon)) \\
+            & \approx (c_2-c_1)(A-c_2) > 0 
+        \end{align*}
+    \end{solution}
+\end{itemize}

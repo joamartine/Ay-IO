@@ -1,0 +1,75 @@
+\documentclass{exam}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-nolayout]{babel}		
+\usepackage{amsmath}						
+\usepackage{amsthm}							
+\usepackage{amssymb}						
+\usepackage{graphicx} 					
+\usepackage{float}						
+\usepackage{verbatim}					
+\usepackage{url}								
+\usepackage{subfig}				 
+\usepackage{psfrag}			
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[bottom]{footmisc}
+\usepackage{bigstrut}
+\usepackage{color}
+	\definecolor{ceruleanblue}{rgb}{0.16, 0.32, 0.75}
+	\definecolor{coolblack}{rgb}{0.0, 0.18, 0.39}
+	\definecolor{darkgreen}{rgb}{0.0, 0.2, 0.13}
+\usepackage{multirow,hhline}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black, % Color del enlace interno (por ejemplo, índice)
+    urlcolor=black, % Color de los enlaces URL
+    citecolor=black, % Color de las citas
+}
+\usepackage{tikz}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+
+\pagestyle{headandfoot}					
+\headrule 										
+
+\firstpageheader{\includegraphics[scale=0.2]{Imágenes/Logo2.png}}{}{\scriptsize{Departamento de Economía} \\ \scriptsize{Facultad de Economía y Negocios}}
+\runningheader{\scriptsize{\includegraphics[scale=0.2]{Imágenes/Logo2.png}}}{\scriptsize Microeconomía II \\ \scriptsize{Otoño 2024}} {\scriptsize{Departamento de Economía} \\ \scriptsize{Facultad de Economía y Negocios}}
+
+\footrule
+\footer{}{\scriptsize{P\'agina \thepage\ de \numpages}}{}
+\parindent = 0pt
+\renewcommand\partlabel{(\thepartno.)}
+\renewcommand\thesubpart{\roman{subpart}}
+
+
+\printanswers  
+\renewcommand{\solutiontitle}{\noindent\textbf{Respuesta:}\par\noindent\sffamily}
+
+\begin{document}
+
+\begin{center}
+
+\LARGE{\textbf{Microeconomía II}}
+
+\medskip
+\normalsize \textbf{Profesor:} \textsc{Paola Bordón}
+
+\normalsize \textbf{Ayudantes:} \textsc{Ayelén Sandoval \& Joaquín Martínez}\footnote[2]{joamartine@fen.uchile.cl}
+
+
+\medskip
+\large{\textbf{Ayudantía 6 - Colusión}}
+
+\end{center}
+
+\tableofcontents
+
+\input{Secciones/Comentes.tex}
+\input{Secciones/Colusión asimétrica.tex}
+\input{Secciones/Colusión2.tex}
+
+
+\end{document}

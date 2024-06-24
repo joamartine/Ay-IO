@@ -1,0 +1,312 @@
+\documentclass{exam}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-nolayout]{babel}		
+\usepackage{amsmath}						
+\usepackage{amsthm}							
+\usepackage{amssymb}						
+\usepackage{graphicx} 					
+\usepackage{float}						
+\usepackage{verbatim}					
+\usepackage{url}								
+\usepackage{subfig}				 
+\usepackage{psfrag}			
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[bottom]{footmisc}
+\usepackage{bigstrut}
+\usepackage{color}
+	\definecolor{ceruleanblue}{rgb}{0.16, 0.32, 0.75}
+	\definecolor{coolblack}{rgb}{0.0, 0.18, 0.39}
+	\definecolor{darkgreen}{rgb}{0.0, 0.2, 0.13}
+\usepackage{multirow,hhline}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black, % Color del enlace interno (por ejemplo, índice)
+    urlcolor=black, % Color de los enlaces URL
+    citecolor=black, % Color de las citas
+}
+\usepackage{tikz}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+
+\pagestyle{headandfoot}					
+\headrule 										
+
+\firstpageheader{\includegraphics[scale=0.2]{Imágenes/Logo2.png}}{}{\scriptsize{Departamento de Economía} \\ \scriptsize{Facultad de Economía y Negocios}}
+\runningheader{\scriptsize{\includegraphics[scale=0.2]{Imágenes/Logo2.png}}}{\scriptsize Microeconomía II \\ \scriptsize{Otoño 2024}} {\scriptsize{Departamento de Economía} \\ \scriptsize{Facultad de Economía y Negocios}}
+
+\footrule
+\footer{}{\scriptsize{P\'agina \thepage\ de \numpages}}{}
+\parindent = 0pt
+\renewcommand\partlabel{(\thepartno.)}
+\renewcommand\thesubpart{\roman{subpart}}
+
+
+\noprintanswers  
+\renewcommand{\solutiontitle}{\noindent\textbf{Respuesta:}\par\noindent\sffamily}
+
+\begin{document}
+\begin{center}
+
+\LARGE{\textbf{Microeconomía II}}
+
+\medskip
+\normalsize \textbf{Profesora:} Paola Bordón
+
+\normalsize \textbf{Ayudantes:} Ayelén Sandoval \& Joaquín Martínez\footnote[2]{joamartine@fen.uchile.cl}
+
+
+\medskip
+\large{\textbf{Ayudantía 10 - Venta atada y disuación de entrada}}
+
+\end{center}
+
+\tableofcontents
+
+\renewcommand{\thefootnote}{\Roman{footnote}}
+
+\section{Repaso de ventas atadas para la disuación de entrada}
+
+Vamos a repasar como las ventas atadas puedes instrumentalizarse para evitar la entrada de competidores.
+
+\subsubsection*{Empresa Incumbente}
+La empresa $A$, la incumbente (quien estaba primero) tiene un monopolio multiproducto. El costo de $A$ por producir ambos bienes es $C$. Ambos mercados tienen un consumidor representativo que compra \textbf{a lo más una unidad de cada bien}. Puede comprar ambos, uno de ellos, o ninguno. La máxima disposición a pagar es $V_1, V_2$, tal que $V_i > C$.
+
+\textbf{Sin entrada:} A fija $P_{A1} = V_1$, $P_{A2} = V_2$ (discriminación perfecta). 
+
+\subsubsection*{Empresa entrante}
+Una competidora busca entrar a uno de los dos mercados de la incumbente, siendo esta más eficiente, $CA_i > CB_i = 0$. 
+
+Al entrar la más eficiente a por ejemplo, el mercado $1$ tendremos que el precio caerá hasta el costo marginal de la menos eficiente, siendo lo suficientemente competitivo para capturar todo el mercado $P_{B1} \approx C$. 
+
+\textbf{Resultado:} $A$ sale del mercado y cada una se queda con su mercado respectivo. 
+
+\subsection*{Venta Atada como estrategia para evitar la entrada}
+La firma incumbente puede vender un paquete del bien 1 y 2 a un precio $P_A$. Es venta atada, NO se vende por separado. 
+
+\textbf{Equilibrio de Nash en precios:} 
+
+La estrategia (función de reacción) de $B$ es recortar el precio de $A$ todo lo que se pueda hasta llegar a cero ($B$ es muy eficiente).
+
+La estrategia (función de reacción) de $A$ es armar la venta atada tal que el consumidor prefiera pagar por los dos bienes. Si la utilidad de los individuos se denota como, $U = V - P$. Entonces las utilidades para comprar el paquete el bien 1 serán, 
+\begin{align*}
+    U_A = V_1 + V_2 - P_A \\
+    U_B = V_1 - P_{B1}
+\end{align*}
+Las restricciones con las que trabaja la firma $A$ aseguran primero que todo, que los consumidores compren su paquete y que segundo, prefieran la venta atada a solo uno de los bienes.
+\[
+V_1 + V_2 - P_A > V_1 - P_{B1}
+\]
+\[
+P_A < P_{B1} + V_2
+\]
+El mínimo precio que está dispuesto a cobrar B es $P_{B1} = 0$ (costo). Firma A puede cobrar un poco menos de $V_2$ y dejar sin ventas a B. Equilibrio de Nash: $P_{B1} = 0$, $P_A = V_2 - \epsilon$. A vende la canasta y B no vende nada.
+
+\subsection*{Beneficios de Bundling o Ventas por Separado}
+Comparación ventas individuales y ventas atadas:
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+ & Individual & Venta atada \\
+\hline
+Incumbente A & $P_A - C_A = V_2 - C$ & $P_A - C_A = V_2 - C$ \\
+\hline
+Entrante B & $(C_A - \varepsilon) - C_B \approx C_A$ & $0$ \\
+\hline
+Consumidores & $V_1 - C + V_2 - P_A = V_1-C$ & $V_1 + V_2 - P_A = V_1$ \\
+\hline
+\end{tabular}
+\end{center}
+
+El incumbente gana lo mismo con cada estrategia. El entrante reduce beneficios. El incumbente puede atar productos para evitar entrada.
+
+\subsubsection*{Equilibrio del juego secuencial}
+Si $F > 0$, la firma A vende bienes atados y la firma B no entra. La amenaza de venta atada tiene que ser creíble. 
+
+\newpage
+
+\section{Comentes}
+\begin{enumerate}
+    \item Una firma que es monopolio en dos productos, con el objetivo de maximizar sus beneficios, siempre preferirá realizar una venta atada por sobre una venta empaquetada (empaquetamiento) de sus productos, ya que, al limitar al máximo las opciones de las y los consumidores, es capaz de extraerles el máximo excedente posible.
+    \begin{solution}
+        El comentario es Falso, ya que preferirá empaquetamiento por sobre venta atada, ya que en el primero tiene más instrumentos para poder llevarse un mayor excedente de los consumidores.
+    \end{solution}
+    \item En una discriminación de segundo grado el monopolista no observa ninguna característica del consumidor que le permita aplicar una tarifa en dos partes similar a la discriminación perfecta.
+    \begin{solution}
+        Verdadero, bajo discriminación de segundo grado el monopolista no observa directamente alguna característica que le permita separar a los consumidores pero puede establecer una tarifa en dos partes con un cargo variable superior al costo marginal y un cargo fijo, equivalente al excedente que obtendría el consumidor con menor disponibilidad a pagar. Esta tarifa difiere a la aplicada bajo discriminación perfecta, en que el cargo variable es igual al costo marginal y el cargo fijo puede ser diferenciado.
+    \end{solution}
+    \item \textbf{(Pregunta de solemne pasada)} Es interesante observar que los esquemas de tarificación difieren en distintas actividades. Describa el tipo de discriminación de precios y porque se usa (o no se usa) en los siguientes casos:
+    \begin{enumerate}
+        \item Un cine durante un día normal.
+        \begin{solution}
+            Al haber descuentos para estudiantes y tercera edad esto constituye una discriminación de tercer grado. Ahora con las salas Premium de algunos cines, se ofrecen paquetes distintos, esto es discriminación de segundo tipo para que los clientes se autoseleccionen según su disposición a pagar.
+        \end{solution}
+        \item Restaurantes con buffet (se puede comer cuanto se desea).
+        \begin{solution}
+            Discriminación de segundo grado. Los clientes se autoseleccionan, en general tarifa fija porque no se puede controlar el consumo.
+        \end{solution}
+        \item Transporte público con pasajes especiales para estudiantes.
+        \begin{solution}
+            Discriminación de tercer grado, pues los pases escolares de los estudiantes son observables.
+        \end{solution}
+    \end{enumerate}
+    \item \textbf{(Pregunta de solemne pasada)} Ventas atadas es un mecanismo de disuasión de entrada. Verdadero o falso. Justifique.
+        \begin{solution}
+            Verdadero. Además de extraer excedente al consumidor, usar ventas atadas es una forma de bloquear la entrada de competidores. Entrante obtiene menores beneficios si el incumbente utiliza ventas atadas, lo que reduce las probabilidades de entrada.
+        \end{solution}
+    \item Hace unos años, un fallo penalizó las ventas atadas en el mercado de los créditos. Ese mismo fallo determinó que no había problemas con el empaquetamiento, ya que esas prácticas eran beneficiosas para los consumidores. Comente.
+    \begin{solution}
+        El empaquetamiento es una práctica donde se cobra un precio descontado si se consumen dos productos. A pesar de ello, esta estrategia permite permitirle cobrarle más a los consumidores de mayor valoración, por lo que es una forma de discriminar precio. Es así como no es claro si efectivamente beneficia a los consumidores. Los consumidores de mayor valoración por un bien en particular y baja por el otro se verán perjudicados, ya que tendrán un precio mayor al caso sin empaquetamiento.
+    \end{solution}
+    \item \textbf{(Pregunta de solemne pasada)} Suponga que usted es una/un feliz ayudante de la FEN-UChile que se dispone a recibir su pago de ayudantía en los próximos días. Usted ha decidido destinar este dinero a renovar su celular, el que actualmente tiene un plan de 200 minutos e internet ilimitado. Con esta idea se dirige a la compañía de telefonía móvil y cotiza un nuevo equipo. La vendedora le hace el siguiente comentario: “El nuevo equipo cuesta \$50.000. Sin embargo, su plan actual de \$25.990 está descontinuado. Dado esto, lo homologaremos al más cercano de los nuevos sin perjudicar su pago. Este corresponde al plan de \$23.990, que consta de 150 minutos y 1 Gb. de internet. Adicionalmente, le ofrecemos el plan de \$29.990 con 300 minutos y 2.5 Gb de internet”. ¿Qué estrategia está utilizando la compañía móvil? ¿De qué forma funciona?
+    \begin{solution}
+        La compañía móvil está utilizando una estrategia de discriminación de segundo grado. La empresa no puede exigir que el consumidor esté en cierto plan, pero ofrece dos planes distintos donde el cliente tiene que autoseleccionarse. En particular lo que está haciendo la firma, es perjudicar la opción que corresponde a los consumidores de menor valoración disminuyendo el número de minutos y ofreciendo una cantidad limitada de internet móvil. Dado lo anterior, el excedente que puede tener el individuo de mayor valoración escogiendo este plan disminuye. Esto puede empujar a que este decida optar por el plan más costoso.
+    \end{solution}
+\end{enumerate}
+
+    
+
+\newpage
+\section{Entrada y Venta Atada}
+
+La empresa agrícola Agro S.A siembra, cosecha y vende manzanas y naranjas, actualmente posee el monopolio de ambos mercados. Se sabe además que las demandas que se enfrentan en estos mercados son de la forma $Q(P) = 4 - P$, en cada mercado (Se puede ver así que las máximas disposiciones a pagar son de 4 en cada mercado). El costo marginal de producción tanto para manzanas como para naranjas es de 1. Agro se ha enterado de que Siembra S.A está evaluando entrar al mercado de las manzanas, quien de hacerlo lo haría con un costo marginal igual a cero, pero debe enfrentar un costo de entrada $F = 2$ para hacerlo.
+
+\begin{enumerate}
+    \item Evalue si una estrategia en donde Agro S.A vende una canasta de Manzanas y Naranjas podría disuadir la entrada de Siembra S.A.
+    \begin{solution}
+        El Timing del juego será:
+        \begin{itemize}
+            \item $T = 1$: Siembra decide si realiza su entrada al mercado o no.
+            \item $T = 2$: Agro y Siembra compiten en precios.
+        \end{itemize}
+
+        Resolviendo por inducción hacia atrás, en $T = 2$ hay 2 posibles casos.
+
+        \textbf{Caso 1: Agro acomoda la entrada (No hay Venta Atada)}
+
+        Siembra entra en el mercado de las manzanas quedándose con éste al ser más eficiente y al estar compitiendo en precios. Agro sigue como monopolio en el mercado de las naranjas. Calculamos entonces los beneficios de cada empresa.
+
+        \[
+        \pi_A^n = Q(4 - Q) - Q
+        \]
+        \[
+        \frac{\partial \pi_A^n}{\partial Q} : 4 - 2Q - 1 = 0
+        \]
+        \[
+        Q = \frac{3}{2}
+        \]
+        \[
+        \pi_A^n = \frac{9}{4}
+        \]
+
+        Siembra cobra un precio de $P = 1 - \epsilon \rightarrow Q = 3$, por lo que sus beneficios son iguales a $\pi_S^m = 3$.
+
+        \textbf{Caso 2: Agro impide entrada con venta atada}
+
+        Para que la canasta con manzanas y naranjas sea preferida, se tiene que cumplir que la utilidad asociada (medida como el excedente: disposición a pagar máxima ($V$) menos el precio) tiene que ser igual o mayor a la utilidad asociada a comprar las manzanas por sí solas:
+        
+        \[
+        U_C \geq U_M
+        \]
+        \[
+        V_N + V_M - P_C \geq V_M - P_M
+        \]
+        \[
+        V_N + P_M \geq P_C
+        \]
+
+        El precio de la canasta tiene que ser menor a la disposición a pagar de las naranjas más el precio de las manzanas. Sin embargo, en el caso extremo y debido a la competencia en precios en el mercado de las manzanas, Siembra cobrará su costo marginal que es 0. Por lo que el precio de la canasta tiene que ser menor a la disposición máxima a pagar de las naranjas (4). La función de demanda de la canasta será entonces,
+
+        \[
+        Q(P_C) = 16 - \frac{P_C^2}{2}
+        \]
+
+        La función de beneficios tendrá la siguiente estructura:
+
+        \[
+        \pi_A = P_C \left( 16 - \frac{P_C^2}{2} \right) - \left( 16 - \frac{P_C^2}{2} \right)
+        \]
+        \[
+        \pi_A = (P_C - 1) \left( 16 - \frac{P_C^2}{2} \right)
+        \]
+        \[
+        \frac{\partial \pi_A}{\partial P_C} : 16 - \frac{3P_C^2}{2} + P_C
+        \]
+        \[
+        P_{C1} = 3.62
+        \]
+        \[
+        P_{C2} = -2.94
+        \]
+
+        Vemos que se cumple la condición para que se prefiera la canasta por sobre las manzanas solas, así que el precio de manzanas de Siembra será 0 y también sus beneficios. El precio es 0 ya que está obligado a reducir su precio para que la utilidad de comprar manzanas, para el consumidor sea la mayor posible (dado sus costos de producción) y pueda competir contra la canasta.
+
+        En $T = 1$, Siembra decide si entra:
+
+        En el caso 1, donde Agro se acomoda:
+
+        \[
+        \pi_S - F = 3 - 2 = 1 > 0
+        \]
+
+        En este caso sí habrá entrada.
+
+        En el caso 2, donde Agro realiza una venta atada para disuadir la entrada:
+
+        \[
+        \pi_S - F = 0 - F = -F < 0
+        \]
+
+        No habrá entrada de Siembra en el mercado.
+
+        Queda como propuesto ver si a Agro le conviene o no disuadir la entrada, analizando los beneficios asociados a cada caso.
+    \end{solution}
+\end{enumerate}
+
+\newpage
+\section*{Bundling y venta atada}
+
+Considere la Tabla 1 que contiene las valoraciones para los bienes $X$ y $Y$. Suponga que el coste marginal de $X$ es 1 y el coste marginal de $Y$ también es 1.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+ & \textbf{Producto X} & \textbf{Producto Y} \\
+\hline
+\textbf{Consumidor tipo 1} & 4 & 3 \\
+\hline
+\textbf{Consumidor tipo 2} & 3 & 3 \\
+\hline
+\textbf{Consumidor tipo 3} & 0 & 4 \\
+\hline
+\end{tabular}
+\caption{Valoraciones de los productos $X$ e $Y$ según tipo de consumidor.}
+\end{table}
+
+\begin{enumerate}
+    \item (10 puntos) Encuentre el precio de monopolio óptimo en caso de ventas atadas o bundling puro, es decir, precio de $X+Y$.
+    \begin{solution}
+        Bajo ventas atadas el monopolio vende $X+Y$ o no vende nada.
+        \begin{enumerate}
+            \item Si el precio del paquete es $P(X+Y) = 7$ solo compra el consumidor tipo 1, y los beneficios son $\Pi = (7 - 1 - 1) = 5$.
+            \item Si el precio del paquete es $P(X+Y) = 6$ compran los consumidores tipo 1 y 2, los beneficios son $\Pi = 2 * (6 - 1 - 1) = 8$.
+            \item Si el precio del paquete es $P(X+Y) = 4$, compran los 3 tipos de consumidores, y los beneficios son $\Pi = 3 * (4 - 1 - 1) = 6$.
+        \end{enumerate}
+        Luego, la mejor estrategia para el precio es $P(X+Y) = 6$ y los beneficios son $\Pi$.
+    \end{solution}
+    
+    \item (10 puntos) Encuentre el precio de monopolio óptimo en caso de empaquetamiento o bundling mixto, es decir, vender por separado y en conjunto. ¿Cuál de las estrategias de ventas atadas puras o mixtas conlleva el mayor beneficio para el monopolista?
+    \begin{solution}
+        Maximiza beneficios vender el paquete a un precio $P(X+Y) = 6$ y $P(Y) = 4$. Note que el precio de $X$ solo es irrelevante, pues ningún tipo de consumidor compra el bien $X$ solo. Los beneficios son $\Pi = 2 * (6 - 1 - 1) + (4 - 1) = 11$.
+
+        Otra alternativa es cobrar $P(X+Y) = 7$ por el paquete, $P(Y) = 4$ por el bien $Y$ y $P(X) = 3$ por el bien $X$. Los beneficios son $\Pi = (7 - 1 - 1) + (3 - 1) + (4 - 1) = 5 + 2 + 3 = 10$.
+    \end{solution}
+\end{enumerate}
+
+
+\end{document}

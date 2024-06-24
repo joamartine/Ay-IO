@@ -1,0 +1,82 @@
+\section{Competencia por Bienes diferenciados}
+Suponga un mercado en que tres firmas $1$, $2$ y $3$ ofrecen productos diferenciados y compiten en precios. La demanda que enfrenta el producto ofrecido por cada firma $i$ viene dada por $q_i = 100 -3p_i +p_j + p_k$. Esta función de demanda es simétrica para los tres productos, de manera que
+\begin{align*}
+    q_1 = 100-3p_1+p_2+p_3 \\
+    q_2 = 100-3p_2+p_1+p_3 \\
+    q_3 = 100-3p_3+p_1+p_2
+\end{align*}
+La función de costos de producción es idéntica para cada firma y viene dada por $C(q_i) = 20q_i$. Considerando esta información responda las siguientes preguntas:
+\begin{itemize}
+    \item [\textbf{a.-}] Calcule las funciones de reacción de las firmas $1$, $2$ y $3$. Grafique las funciones de reacción de las firmas $1$ y $2$ (Asumiendo $\bar{p}_3$ como constante). Identifique el precio de equilibrio en su gráfico.
+    \begin{solution}
+        Planteamos el problema de la firma $1$, 
+        \begin{align*}
+            \max_{p_1}\quad \Pi_1 &= (p_1 -20) (100-p_1 +p_2 + p_3) \\
+            \textbf{CPO:} \quad \frac{\partial \Pi_1}{\partial p_1} &= 100-3p_1+p_2+p_3 -3p_1 +60 = 0 \\
+            p_1(p_2,p_3) &= \frac{160+p_2+p_3}{6}
+        \end{align*}
+        Por simetría para cualquier empresa,
+        \begin{align*}
+            p_i(p_j,p_k) = \frac{160 + p_j + p_k}{6}
+        \end{align*}
+        Para graficar las funciones de reacción dejamos $\bar{p}_3$ como constante.
+        \begin{align*}
+            p_i(p_j) = \frac{p_j}{6} + \text{cte.}
+        \end{align*}
+        \begin{center}
+            \includegraphics[width=12cm]{Imágenes/funcionesreacción.jpeg}
+        \end{center}
+    \end{solution} 
+    \item [\textbf{b.-}] Obtenga el vector de precios $(p_1^*,p_2^*,p_3^*)$ que corresponden al equilibrio de Nash de este juego.
+    \begin{solution}
+        Aplicamos que $p^*_1=p^*_2=p_3^*$, por lo tanto reemplazamos en alguna de las funciones para encontrar el precio de equilibrio:
+        \begin{align*}
+            p* = \frac{160+p^*+p^*}{6} \Longrightarrow p^* = 40
+        \end{align*}
+        El vector de equilibrio es $(40,40,40)$
+    \end{solution}
+    \item [\textbf{c.-}] Asuma que la firma $2$ y $3$ deciden salirse del mercado por motivos internos. Ante esta situación la firma $1$ logra adquirir la firma $2$, por lo que las demandas pasan a ser las siguientes,
+    \begin{align*}
+        q_1 = 100 -2p_1 +p_2 \\
+        q_2 = 100 -2p_2 +p_1
+    \end{align*}
+    Calcule el precio, cantidad y beneficios de equilibrio bajo este nuevo escenario.
+    \begin{solution}
+        Planteando ahora el problema de maximización para un monopolio multiproducto considerando que $\Pi = \sum_{i = 1}^2 \pi_i$
+        \begin{align*}
+            \max_{p_1,p_2} \quad \Pi &= \underbrace{\underbrace{(100-2p_1+p_2)}_{q_1}\underbrace{(p_1-20)}_{p_1-c} }_{\pi_1}+ \underbrace{\underbrace{(100-2p_2+p_1)}_{q_2}\underbrace{(p_2-20)}_{p_2-c}}_{\pi_2} \\
+            \textbf{CPO:} \quad \frac{\partial \Pi}{\partial p_1} &= 100-2p_1+p_2-2p_1+40+p_2-20 = 0 \\
+            p^*_1(p_2) &= \frac{60+p_2}{2} \\
+            \text{Por simetría} \quad  p_2^*(p_1) &= \frac{60+p_1}{2}
+        \end{align*}
+        Además por simetría incluso podríams decir $p_1 = p_2$, por tanto $p = 60$ y consecuentemente $q= 40$.
+
+        El beneficio será 
+        \begin{equation*}
+            \Pi = (100-120+60)(60-20) + (100-120+60)(60-20) = 3200
+        \end{equation*}
+    \end{solution}
+    \item [\textbf{d.-}] Cómo cambia su respuesta del ítem anterior si ahora las demandas son
+    \begin{align*}
+        q_1 = 100 - 2p_1 -p_2 \\
+        q_2 = 100-2p_2-p_1    
+    \end{align*}
+    ¿Qué significa una demanda de este tipo?
+    \begin{solution}
+        Una demanda de este tipo refiere a que los productos $q_1$ y $q_2$ son complementarios, por lo tanto los beneficios del monopolio multiproducto serán menores. Calculémoslo,
+        \begin{align*}
+            \max_{p_1,p_2} \quad \Pi &= (100-2p_1-p_2)(p_1-20) + (100-2p_2-p_1)(p_2-20) \\
+            \textbf{CPO:} \quad \frac{\partial \Pi}{\partial p_1} &= 100-2p_1-p_2-2p_1 + 40-p_2+20 = 0 \\
+            p^*_i(p_j) &= \frac{80-p_j}{2}
+        \end{align*}
+        Por lo tanto $p = \frac{80}{3}\approx 26,7$ y $q \approx 20$. El beneficio será
+        \begin{align*}
+            \Pi = 20(26,7-20)\cdot 2 = 268
+        \end{align*}
+        
+        \rule{\linewidth}{0.4pt}
+        
+        Fijese que $\Pi^{\text{Sustitutos}}>\Pi^{\text{Complementos}}$
+    \end{solution}
+    
+\end{itemize}

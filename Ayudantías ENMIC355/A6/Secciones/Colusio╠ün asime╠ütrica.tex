@@ -1,0 +1,76 @@
+\section{Colusión con asimetría de costos}
+\renewcommand{\thefootnote}{\Roman{footnote}}
+Un mercado posee una demanda $Q(P)=36-P$. Existen dos empresas que compiten en él mediante precios. La primera tiene costo marginal $c_{1}=0$, mientras que la segunda tiene costo $c_{2}=4$.
+
+\begin{itemize}
+    \item[a)] Suponga que las empresas desean coludirse. Cuál será el precio de colusión que escogerían y por qué.
+    \begin{solution}
+        Sin la existencia de restricciones de capacidad, todo se produce al costo de la más eficiente. Por ende, maximizamos el beneficio conjunto.
+        \begin{align*}
+            \max_p \quad \Pi = pQ &= p(36-p) \\
+            \frac{\partial \Pi}{\partial p}= 36 - 2 P = 0 &\Longrightarrow p^c = 18 \\
+            \Pi &= 324
+        \end{align*}
+    \end{solution}
+    \item[b)] ¿Cuál es el máximo reparto del mercado $S_{2}$ (\%) que podría llevarse la firma 2 para que el acuerdo sea factible, si el factor de descuento intertemporal es $\delta=0,75$?
+    \begin{solution}
+        En caso de competencia
+        \begin{align*}
+            P=4-\varepsilon \approx 4  \Longrightarrow Q=32 \\ 
+            \Pi_{1}=128, \quad \Pi_{2}=0
+        \end{align*}
+        En caso de que la firma $1$ se desvíe gana beneficios monopólicos $\Pi^M = 324$. Para que el acuerdo sea sostenible, tanto la firma $1$ como la firma $2$ deben aceptar el acuerdo y, por ende, ambos deben ser iguales o menores que el factor de impaciencia. Por lo tanto, realizaremos el proceso para ambas firmas.
+        \begin{align*}
+            \delta \geq \frac{\pi^{D}-\pi^{C}}{\pi^{D}-\pi^{N}} \\
+            0,75 \geq \frac{324-S_{1} \Pi^{c}}{324-128} \\
+            147 \geq 324 - 324S_1 \\
+            0,54\geq S_1
+        \end{align*}
+        Dado que ambos tienen el mismo $\delta$ podemos calcular $S_2 = 1-S_1$. Por tanto $S_2 = 0,46$.
+    \end{solution}
+    \item[c)] Obtenga las condiciones para que el acuerdo colusivo sea sostenible si las empresas deciden turnarse la producción. Es decir un periodo solo produce una de ellas y en el siguiente período produce la otra y así sucesivamente. Asuma que en $t=0$, la firma 1 parte produciendo, por lo que se puede desviar desde un inicio y vender en el próximo período.
+    \begin{solution}
+        Podemos denotar que bajo este acuerdo cuando le toca fijar el precio cada firma, fijará su propio precio monopolico. Para la firma $1$,
+        \begin{align*}
+            p^{M}=18,\quad Q=18,\quad \Pi=324
+        \end{align*}
+        Para la firma $2$,
+        \begin{align*}
+            p^{M}=20, \quad Q=16, \quad \Pi=256
+        \end{align*}
+        El equilibrio no cooperativo es,
+        \begin{align*}
+            p=4-\varepsilon \approx 4, \quad Q=32, \quad \Pi_{1}=128, \quad \Pi_2=0
+        \end{align*}
+        El desvío es producir cuando no le toca y ofertar un precio de acuerdo a su función de reacción, para la firma $1$,
+        \begin{align*}
+            p_{2}^{M}>p_{1}^{M} \Longrightarrow p=18, \quad Q=18, \quad \Pi_1 =324
+        \end{align*}
+        Desvío para la firma $2$,
+        \begin{align*}
+            p_{1}^{M}<p_{2}^{M} \Longrightarrow p=18-\varepsilon \approx 18, \quad Q=18, \quad \Pi_2 = 252
+        \end{align*}
+        En este caso denotamos la condición de colusión para la firma $1$ como,
+        \begin{align*}
+            VP_{1}(\text {Cooperar}) & \geq V P_{1}(\text {Desvío}) \\
+            \sum_{t=0}^{\infty} \delta_{1}^{2 t} 324 & \geq 324\left(1+\delta_{1}\right)+\sum_{t=2}^{\infty} \delta_{1}^{t} 128 \\
+            \frac{324}{1-\delta_{1}^{2}} & \geq 324(1+\delta_{1})+128 \frac{\delta_{1}^{2}}{1-\delta_{1}} \\
+            324 & \geq 324(1+\delta_{1})(1-\delta_{1}^{2})+128 \delta_{1}^{2}(1+\delta_{1}) \\
+            324 & \geq 324-324 \delta_{1}^{2}+324 \delta_{1}-324 \delta_{1}^{3}+128 \delta_{1}^{2}+128 \delta_{1}^{3} \\
+            196 \delta_{1}^{2}+196 \delta_{1}-324 & \geq 0 \\
+            \delta_{1} & \geq 0,879515
+        \end{align*} 
+        Para la firma $2$, 
+        \begin{align*}
+            V P_{2}(\text {Cooperar}) & \geq V P_{2}(\text {Desvío}) \\ 
+            \sum_{t=0}^{\infty} \delta_{2}^{2 t+1} 256 & \geq 252 \\
+            \frac{256 \delta_{2}}{1-\delta_{2}^{2}} & \geq 252 \\ 
+            252 \delta_{2}^{2}+256 \delta_{2}-252 & \geq 0 \\
+            \delta_{2} & \geq 0,613669
+        \end{align*}
+        \rule{\linewidth}{0.4pt} 
+        \textbf{Nota:} Recuerde que la firma 2 le sale más convieniente desviarse solo en el período que produce la otra firma.
+
+        Dado $\delta=0,75$ para ambas firmas, la firma 2 le conviene cooperar, pero para la firma 1 no.
+    \end{solution}
+\end{itemize}
