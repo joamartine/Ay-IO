@@ -1,0 +1,186 @@
+\documentclass{exam}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-nolayout]{babel}		
+\usepackage{amsmath}						
+\usepackage{amsthm}							
+\usepackage{amssymb}						
+\usepackage{graphicx} 					
+\usepackage{float}						
+\usepackage{verbatim}					
+\usepackage{url}								
+\usepackage{subfig}				 
+\usepackage{psfrag}			
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[bottom]{footmisc}
+\usepackage{bigstrut}
+\usepackage{color}
+	\definecolor{ceruleanblue}{rgb}{0.16, 0.32, 0.75}
+	\definecolor{coolblack}{rgb}{0.0, 0.18, 0.39}
+	\definecolor{darkgreen}{rgb}{0.0, 0.2, 0.13}
+\usepackage{multirow,hhline}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black, % Color del enlace interno (por ejemplo, índice)
+    urlcolor=black, % Color de los enlaces URL
+    citecolor=black, % Color de las citas
+}
+\usepackage{tikz}
+
+\usepackage{newtxmath}
+
+\usepackage{physics}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+
+\pagestyle{headandfoot}					
+\headrule 										
+
+\firstpageheader{\includegraphics[scale=0.2]{/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png}}{}{\scriptsize{Departamento de Economía} \\ \scriptsize{Facultad de Economía y Negocios}}
+\runningheader{\scriptsize{\includegraphics[scale=0.2]{/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png}}}{\scriptsize Microeconomía II \\ \scriptsize{Primavera 2024}} {\scriptsize{Departamento de Economía} \\ \scriptsize{Facultad de Economía y Negocios}}
+
+\footrule
+\footer{}{\scriptsize{P\'agina \thepage\ de \numpages}}{}
+\parindent = 0pt
+\renewcommand\partlabel{(\thepartno.)}
+\renewcommand\thesubpart{\roman{subpart}}
+
+
+\printanswers  
+\renewcommand{\solutiontitle}{\noindent\textbf{Respuesta:}\par\noindent\sffamily}
+
+\begin{document}
+\begin{center}
+
+\LARGE{\textbf{Microeconomía II}}
+
+\medskip
+\normalsize \textbf{Profesora:} Paola Bordón
+
+\normalsize \textbf{Ayudantes:} Ayelén Sandoval, Diego Undurraga, Joaquín Martínez\footnote[2]{joamartine@fen.uchile.cl}
+
+
+\medskip
+\large{\textbf{Ayudantía 6}}
+
+\end{center}
+
+\tableofcontents
+
+\renewcommand{\thefootnote}{\Roman{footnote}}
+
+\section{Comentes}
+
+\begin{itemize}
+    \item[a)] Para el modelo de Cournot, la relaci ́on entre el índice de Herfindahl-Hirschman (IHH) y el índice de Lerner establece que una firma tiene alto poder de mercado si la elasticidad precio demanda es alta cuando la industria está concentrada. 
+    \begin{solution}
+        \textbf{Falso}. En el modelo de Cournot, al juntar el IHH \(\left( \sum s_i^2 \right)\) con el índice de Lerner \(\left( \frac{s_i}{\varepsilon_p} \right)\) se obtiene la siguiente relación:
+
+\[
+\bar{\lambda} = \sum_{i=1}^{N} s_i \lambda_i = \sum_{i=1}^{N} \frac{s_i^2}{\varepsilon_p} = \frac{IHH}{\varepsilon_p}
+\]
+
+Donde \(\bar{\lambda}\) y \(\lambda\) son los índice de Lerner y el índice de Lerner agregado respectivamente.
+
+Lo que muestra que, pese a que una industria esté muy concentrada (tengo un alto IHH) una firma podría tener bajo poder de mercado si la demanda es muy elástica. En otras palabras, una firma tendría bajo poder cuando: 
+\begin{itemize}
+    \item[i)] Esté en un mercado muy atomizado y/o 
+    \item[ii)] Enfrente una demanda muy elástica.
+\end{itemize}
+\end{solution}
+
+\item [b)] Las fusiones deben ser prohibidas porque sólo empeoran a los consumidores. Comente.
+\begin{solution}
+    \textbf{Falso}. Si bien en algunos casos pueden generar concentraciones en mercados que pueden dañar a los consumidores, existen fusiones que pueden generar una ganancia de eficiencia tal que el precio baje, la cantidad aumente y los consumidores se vean beneficiados. Por lo tanto, las fusiones no siempre empeoran a los consumidores.
+\end{solution}
+\item[c)] Explique por qué razón las fusiones entre empresas con mayor participación de mercado a priori se consideran que tienen mayor posibilidad de incrementar los precios que aquellas entre firmas con menor participación de mercado. Emplee un modelo si es necesario.
+\begin{solution}
+    Si las firmas venden un producto homogéneo, es decir, sin diferenciación, aquellas de menor costo tendrán mayor participación de mercado. Por lo tanto, una fusión entre firmas de mayor participación de mercado implica que las de menores costos se fusionen y por lo tanto la principal firma competidora deja de competir, razón por la cual los precios tienden a subir más. Se puede emplear un modelo de Cournot o Bertrand para demostrar el resultado.
+\end{solution}
+
+\item[d)] En los modelos de entrada, siempre la mejor estrategia de la incumbente será bloquear la entrada.
+\begin{solution}
+    Falso. La firma tiene que analizar ambas decisiones en torno a la entrada de una nueva firma al mercado. Si el beneficio de acomodar la entrada de la firma es mayor al beneficio de bloquear la misma; la firma incumbente decidirá acomodar la entrada de la firma. En este sentido, es muy importante que la estrategia elegida sea creíble.
+\end{solution}
+
+\item[e)] La teoría de mercados desafiables nos diría que, ante pequeñas barreras de entradas, un mercado monopólico u oligopólico podría llegar a un equilibrio más similar al de competencia perfecta.
+
+\begin{solution}
+    Verdadero. La existencia de pocas barreras de entradas genera amenaza de competencia por parte de otras firmas, forzando a las incumbentes a comportarse de una manera más competitiva (i.e no hay poder de mercado independiente de la concentración).
+\end{solution}
+
+
+\end{itemize}
+
+\section{Entrada con restricciones de capacidad}
+
+Suponga que un mercado está caracterizado por la siguiente función de demanda lineal: \(p = 12 - Q\). La firma incumbente ($i = 1$) posee un costo marginal $c = 2$. Existe un potencial entrante ($i = 2$) que posee el mismo costo marginal que la incumbente, pero si entra, debe pagar un costo fijo de \(F = 2\). Suponga que tanto incumbente como entrante poseen una restricción de capacidad de \(k_i = 2\). \vspace{3mm}
+
+En \(t = 1\), la firma entrante decide si ingresa o no al mercado, en caso que ingrese desembolsa \(F\). Si es que hay entrada en \(t = 2\) las firmas compiten Bertrand. Determine el precio, cantidades y beneficios de equilibrio si existiera entrada. ¿Existirá entrada en este mercado?
+
+\begin{solution}
+    Dado que hay restricciónes de capacidad la decisión de la entrante en $t = 2$ se reduce a ser demandante residual o recortador de precios. 
+
+    \noindent
+\begin{minipage}{0.45\textwidth}
+    \textbf{Demandante residual:}\newline
+    La cantidad residual será la cantidad demandada descontada por la cantidad que alcance a vender la incumbente. 
+    \begin{align*}
+        q_e &= 12 - \underbrace{k_1}_{k_1 = 2} - p_e \\
+        q_e &= 10 - p_e 
+    \end{align*}
+    Por lo que se resuelve el problema de maximización con respecto a esta demanda. 
+    \begin{align*}
+        &\max_{p_e} \quad \pi_2 = (10-p_e)(p_e-2) \\
+        \textbf{CPO:} \qquad &\pdv{\pi_e}{p_e} = 10-2p_e + 2 = 0 \rightarrow \boxed{p_e = 6}\\
+        &q_e = 10 - 6 \to q_e = 4
+    \end{align*}
+    Dado que $q_e > k_2 = 2$ entonces $q_e$ pasa a ser 2. 
+    \begin{align*}
+        \boxed{q_e = 2, \quad p_e = 8}
+    \end{align*}
+    Los beneficios serán, 
+    \begin{align*}
+        \pi_e = (8-2)\cdot 2 \to \boxed{\pi_e = 12}
+    \end{align*}
+\end{minipage}%
+\hfill%
+\vrule width 1pt
+\hfill%
+\begin{minipage}{0.45\textwidth}
+    \textbf{Recortar precios:}\newline
+    Los beneficios de la empresa pasarán a describirse como,
+    \begin{align*}
+        \pi_p = (p_1-\epsilon -2) \cdot 2
+    \end{align*}
+    La condición para que entre recortando precios será,
+    \begin{align*}
+        \pi_p > \pi_e \\
+        (p_1 - 2) \cdot 2 > 12 \to \boxed{p_1 > 8}
+    \end{align*}
+    Siempre que la firma incumbente ponga un precio mayor a $8$, la firma $2$ entra recortando precios. Por tanto, la función de reacción será:
+    \[
+        p_e =
+        \begin{cases} 
+        10 & \text{si } p_i > 10 \\
+        p_i - \epsilon & \text{si } 8 < p_i < 10 \\
+        8 & \text{si } p_i < 8
+        \end{cases}
+    \]
+\end{minipage}
+\vspace{3mm}
+En \(t = 1\), la firma decide si entrar. Lo hará en cualquier escenario, ya que siempre recibe beneficios, y su costo de oportunidad es $0$.
+
+\end{solution}
+
+
+
+\section{Matemático II}
+
+
+
+\end{document}
