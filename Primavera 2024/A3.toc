@@ -1,0 +1,6 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Comentes}{1}{section.1}%
+\contentsline {section}{\numberline {2}Juegos en forma extensiva}{3}{section.2}%
+\contentsline {section}{\numberline {3}Stackelberg}{4}{section.3}%
+\contentsline {section}{\numberline {4}Propuesto: Colusión en Bertrand y Cournot}{5}{section.4}%
+\contentsline {section}{\numberline {5}Propuesto: Stackelberg con inversión}{8}{section.5}%
