@@ -30,6 +30,8 @@
 }
 \usepackage{tikz}
 
+
+
 \usepackage{newtxmath}
 
 \usepackage{physics}
@@ -76,7 +78,7 @@
 \section{Comentes}
 
 \begin{itemize}
-    \item[a)] Para el modelo de Cournot, la relaci ́on entre el índice de Herfindahl-Hirschman (IHH) y el índice de Lerner establece que una firma tiene alto poder de mercado si la elasticidad precio demanda es alta cuando la industria está concentrada. 
+    \item[a)] Para el modelo de Cournot, la relación entre el índice de Herfindahl-Hirschman (IHH) y el índice de Lerner establece que una firma tiene alto poder de mercado si la elasticidad precio demanda es alta cuando la industria está concentrada. 
     \begin{solution}
         \textbf{Falso}. En el modelo de Cournot, al juntar el IHH \(\left( \sum s_i^2 \right)\) con el índice de Lerner \(\left( \frac{s_i}{\varepsilon_p} \right)\) se obtiene la siguiente relación:
 
@@ -179,8 +181,152 @@ En \(t = 1\), la firma decide si entrar. Lo hará en cualquier escenario, ya que
 
 
 
-\section{Matemático II}
+\section{Amenazas creíbles a la entrada}
+\begin{itemize}
+\item[a)] Plantee el juego y el árbol de decisión.
+    \begin{solution}
+        Para resolver el juego hay que calcular los pagos de las distintas alternativas.
 
+        Primero, si la firma entrante no entra, recibirá un beneficio de 16 por su proyecto alternativo. La firma incumbente será un monopolio, y su beneficio será:
+        \[
+        \pi_i = 100
+        \]
 
+        Si la firma entrante ingresa y la incumbente actúa agresivamente, la incumbente elegirá una capacidad que minimice los beneficios de la entrante, es decir:
+        \[
+        \pi_E = P \cdot q_E = 0
+        \]
+        \[
+        20 - q_I - 4 = 0
+        \]
+        Despejando, encontramos que la incumbente fija una capacidad de \( q_I = 16 \), y ambos, la firma incumbente y la entrante, tendrán beneficios iguales a 0.
+
+        Si la firma entrante ingresa y la incumbente no actúa agresivamente, la incumbente maximiza sus beneficios considerando la capacidad de la entrante. El problema es:
+        \[
+        \max_{q_I} \quad \pi_I = P \cdot q_I
+        \]
+        \[
+        \max_{q_I} \quad (20 - q_I - 4) \cdot q_I
+        \]
+        De esto se obtiene que \( q_I = 8 \), el precio será 8, los beneficios de la firma entrante serán \( \pi_E = 32 \), y los de la incumbente \( \pi_I = 64 \).\newline
+        \begin{center}
+            \includegraphics[width=0.5\linewidth]{/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A6/arbol.png}
+        \end{center}
+        
+    \end{solution}
+
+    \item[b)] Encuentre el equilibrio y explique el resultado. ¿Qué rol juega el beneficio del proyecto alternativo de la firma entrante?
+    \begin{solution}
+        El equilibrio se resuelve por inducción hacia atrás. En la última etapa, la incumbente preferirá no actuar agresivamente, ya que obtiene mayores beneficios así. Sabiendo esto, la firma entrante preferirá ingresar al mercado, ya que la competencia no agresiva le reporta un beneficio mayor que su proyecto alternativo.
+
+        A la incumbente le gustaría amenazar con actuar agresivamente para evitar la entrada y obtener un beneficio de \( \pi_I = 100 \), pero no puede hacer esta amenaza creíble. La razón es que, una vez que se produce la entrada, actuar agresivamente no es la mejor opción para la incumbente.
+
+        El beneficio del proyecto alternativo de la firma entrante (\( 16 \)) representa el costo de oportunidad de la firma al decidir entrar o no. Si la firma entra y obtiene beneficios nulos, habría perdido el beneficio alternativo de 16.
+    \end{solution}
+    \item[c)] Suponga ahora que la firma incumbente puede elegir su capacidad antes de la entrada. ¿Cuál será la mejor opción de la incumbente en este caso?
+    \begin{solution}
+        En este caso, la incumbente puede fijar una capacidad para desincentivar la entrada de la competencia. Sin embargo, esta estrategia solo es conveniente si los beneficios son mayores que permitir la entrada, lo que anteriormente generaba una utilidad de \( \pi_I = 64 \).
+
+        El nivel de capacidad que desincentiva la entrada es tal que los beneficios de la firma entrante sean menores que su proyecto alternativo:
+        \[
+        \pi_E = (20 - q_I - 4) \cdot 4 < 16
+        \]
+        \[
+        q_I > 12
+        \]
+        Por lo tanto, la incumbente debe fijar una capacidad de al menos 13 unidades. Si lo hace, los beneficios serán los monopólicos menos los costos de inversión en capacidad:
+        \[
+        \pi_I = 100 - 3 \cdot 13 = 61
+        \]
+        Dado que estos beneficios son menores que \( \pi_I = 64 \), la mejor opción de la incumbente será permitir la entrada y escoger su capacidad posterior para maximizar sus beneficios.
+    \end{solution}
+\end{itemize}
+
+\section{Propuesto: Fusiones Solemne Otoño 2024}
+
+Suponga que Apple y Dell son los únicos competidores en el mercado de los notebooks. Suponga
+que Apple y Dell venden productos diferenciados horizontalmente (Macbook y XPS) y compiten
+en precios. Las funciones de demanda de Apple y Dell son:
+
+\[
+q_A = 2 - 2p_A + p_D,
+\]
+\[
+q_D = 2 + p_A - 2p_D.
+\]
+
+Los costos marginales para ambas firmas son constantes e iguales a \( c_A = c_D = \frac{1}{2} \).
+
+\begin{itemize}
+    \item[a)] Encuentre los precios, cantidades y beneficios de cada firma en el equilibrio de Nash en precios. Grafique la funciones de mejor respuesta y el equilibrio.
+    \begin{solution}
+        Apple maximiza la siguiente función de beneficios:
+        \[
+        \max_{p_A} \quad \pi_A(p_A, p_D) = (p_A - c_A) q_A = (p_A - \frac{1}{2}) (2 - 2 p_A + p_D)
+        \]
+        Derivando con respecto al precio \(p_A\):
+        \[
+        \frac{\partial \pi_A(p_A)}{\partial p_A} = (2 - 2 p_A + p_D) - 2(p_A - \frac{1}{2}) = 3 - 4 p_A + p_D = 0
+        \]
+        Despejando la mejor respuesta de Apple:
+        \[
+        p_A(p_D) = \frac{3}{4} + \frac{1}{4} p_D
+        \]
+
+        En el equilibrio simétrico, \( p_A = p_D \). Entonces:
+        \[
+        3 - 4 p_A + p_A = 0
+        \]
+        \[
+        3 - 3 p_A = 0 \quad \Rightarrow \quad p_A = p_D = 1
+        \]
+        Las cantidades serán:
+        \[
+        q_A = q_D = 1
+        \]
+        Los beneficios de cada firma serán:
+        \[
+        \pi_A = \pi_D = \frac{1}{2}
+        \]
+    \end{solution}
+
+    \item[b)] Suponga que Apple y Dell deciden fusionarse y formar Dellapple que se comportará como un monopolista multiproducto (sin sinergias como consecuencia de la fusión). Encuentre los precios, cantidades y beneficios del monopolista multiproducto.
+    \begin{solution}
+        Dellapple maximiza la suma de beneficios de ambos productos:
+        \[
+        \max_{p_A, p_D} \quad \pi_A(p_A, p_D) + \pi_D(p_A, p_D) = (p_A - \frac{1}{2}) (2 - 2 p_A + p_D) + (p_D - \frac{1}{2}) (2 - 2 p_D + p_A)
+        \]
+        Derivamos la función de beneficios con respecto a \(p_A\):
+        \[
+        \frac{\partial (\pi_A + \pi_D)}{\partial p_A} = (2 - 2 p_A + p_D) - 2(p_A - \frac{1}{2}) + (p_D - \frac{1}{2}) = \frac{5}{2} - 4 p_A + 2 p_D = 0
+        \]
+        Usando la simetría \( p_A = p_D \):
+        \[
+        \frac{5}{2} - 4 p_A + 2 p_A = 0 \quad \Rightarrow \quad \frac{5}{2} - 2 p_A = 0 \quad \Rightarrow \quad p_A = p_D = \frac{5}{4}
+        \]
+        Las cantidades serán:
+        \[
+        q_A = q_D = \frac{3}{4}
+        \]
+        Los beneficios de Dellapple serán:
+        \[
+        \pi_A = \pi_D = \frac{9}{8}
+        \]
+    \end{solution}
+
+    \item[c)] Explique por qué las firmas al actuar en forma independiente en (a) obtienen menos beneficios que un monopolista multiproducto.
+    \begin{solution}
+        Cuando las firmas toman decisiones de manera independiente, se encuentran en una situación similar al dilema del prisionero. Aunque existen precios más altos que maximizarían los beneficios conjuntos, cada firma tiene incentivos a reducir su precio unilateralmente para aumentar sus beneficios. Esto genera una externalidad negativa.
+
+        Por el contrario, el monopolista multiproducto (Dellapple) tiene en cuenta tanto el efecto de los precios de Apple sobre la demanda de Dell como viceversa, lo que le permite fijar precios más altos y, en consecuencia, obtener mayores beneficios.
+    \end{solution}
+
+    \item[d)] ¿Los consumidores prefieren que las firmas compitan (como en (a)) o que exista un monopolista (como en (b))? ¿Su respuesta sería distinta si los bienes fuesen complementarios en lugar de sustitutos? Explique.
+    \begin{solution}
+        Los consumidores prefieren que las firmas compitan (como en el escenario de (a)) porque los precios son más bajos, lo que aumenta el excedente del consumidor. En este escenario, los productos son sustitutos, por lo que la competencia entre las firmas lleva a precios más bajos.
+
+        Si los bienes fueran complementarios en lugar de sustitutos, los consumidores preferirían un monopolio (como en el escenario de (b)). En este caso, el monopolista tiene en cuenta la externalidad positiva que se genera entre los productos complementarios, lo que conduce a precios más bajos que en el escenario competitivo.
+    \end{solution}
+\end{itemize}
 
 \end{document}
