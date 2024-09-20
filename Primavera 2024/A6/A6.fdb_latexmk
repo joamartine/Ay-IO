@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1725624472 "A6.xdv" "A6.pdf" "A6" 1725624473 0
-  "A6.xdv" 1725624472 122548 ea59df1de25d0fc4b576b6e116c8898b "xelatex"
+["xdvipdfmx"] 1726841746 "A6.xdv" "A6.pdf" "A6" 1726841747 0
+  "A6.xdv" 1726841746 49392 88cf4305ea37a397d539118e8b79c202 "xelatex"
   (generated)
   "A6.pdf"
   (rewritten before read)
-["xelatex"] 1725624470 "/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A6/A6.tex" "A6.xdv" "A6" 1725624472 0
+["xelatex"] 1726841745 "/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A6/A6.tex" "A6.xdv" "A6" 1726841747 0
   "/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png" 1719245316 8833 b074438d4be8648208d989c49260e42a ""
-  "/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A6/A6.tex" 1725624470 16522 8a6424ade7e3c4c5e0cab6b15cc894f9 ""
+  "/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A6/A6.tex" 1726841744 17503 8dd83a1dbae2d1681fbcb21e555ccf5e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -189,10 +189,10 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1689449478 10502842 e1a6dcd2a99f9966b7e28647342e86a8 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "A6.aux" 1725624472 1483 36ba9fce95b54c23047469cd490d29d3 "xelatex"
-  "A6.out" 1725624472 784 191daaba216769b517504ffcd1c65f3b "xelatex"
-  "A6.tex" 1725624470 16522 8a6424ade7e3c4c5e0cab6b15cc894f9 ""
-  "A6.toc" 1725624472 370 70485c0bfbb4e5372b893425ad231a9a "xelatex"
+  "A6.aux" 1726841746 1483 5afb4f05cc2fb60cf8104a02a9cac7a1 "xelatex"
+  "A6.out" 1726841746 784 191daaba216769b517504ffcd1c65f3b "xelatex"
+  "A6.tex" 1726841744 17503 8dd83a1dbae2d1681fbcb21e555ccf5e ""
+  "A6.toc" 1726841746 370 dde8b89a40ac8dad57b5f893961a4924 "xelatex"
   "arbol.png" 1725623167 104926 14df6fffae190929ce377854e60a955e ""
   (generated)
   "A6.aux"

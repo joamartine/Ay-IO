@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.15)  6 SEP 2024 08:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.15)  20 SEP 2024 11:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -918,10 +918,7 @@ File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic 
  [1
 
 ]
-File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
-</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
 
  []
 
@@ -929,19 +926,7 @@ File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A6/arbol.png 
 </Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A6/arbol.png>
 File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
 </Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
-[3]
-File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
-</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
- [4]
-File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
-</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
- [5]
-File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
-</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
- [6]
-File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
-</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
- [7]
+[2]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (./A6.aux
 LaTeX Info: Redefining \. on input line 22.
@@ -951,12 +936,12 @@ Package rerunfilecheck Info: File `A6.out' has not changed.
 (rerunfilecheck)             Checksum: 191DAABA216769B517504FFCD1C65F3B;784.
  ) 
 Here is how much of TeX's memory you used:
- 27530 strings out of 476683
- 491150 string characters out of 5804047
- 1864018 words of memory out of 5000000
- 47283 multiletter control sequences out of 15000+600000
- 545218 words of font info for 101 fonts, out of 8000000 for 9000
+ 27522 strings out of 476683
+ 490953 string characters out of 5804047
+ 1865018 words of memory out of 5000000
+ 47279 multiletter control sequences out of 15000+600000
+ 545194 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,18n,89p,604b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,18n,89p,589b,371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on A6.xdv (7 pages, 122548 bytes).
+Output written on A6.xdv (2 pages, 49392 bytes).
