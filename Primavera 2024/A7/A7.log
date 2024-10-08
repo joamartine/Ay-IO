@@ -820,13 +820,12 @@ File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
 \g__pdf_backend_link_int=\count377
 ))
 Package: xparse 2023-02-02 L3 Experimental document command parser
-))
-No file A7.aux.
+)) (./A7.aux)
 \openout1 = `A7.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 58.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 58.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlntxmi.fd
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 58.
@@ -1269,8 +1268,8 @@ Package rerunfilecheck Info: Checksums for `A7.out':
 (rerunfilecheck)             After:  E1CA61F448813D426C428E5A554ADBBE;1174.
  ) 
 Here is how much of TeX's memory you used:
- 27587 strings out of 476683
- 492866 string characters out of 5804047
+ 27589 strings out of 476683
+ 492880 string characters out of 5804047
  1863018 words of memory out of 5000000
  47340 multiletter control sequences out of 15000+600000
  545250 words of font info for 105 fonts, out of 8000000 for 9000

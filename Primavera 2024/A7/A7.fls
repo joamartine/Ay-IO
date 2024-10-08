@@ -1033,6 +1033,9 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT ./A7.aux
+INPUT A7.aux
+INPUT A7.aux
 OUTPUT A7.aux
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlntxmi.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlntxmi.fd
