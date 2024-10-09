@@ -28,6 +28,7 @@
     urlcolor=black, % Color de los enlaces URL
     citecolor=black, % Color de las citas
 }
+\usepackage{xcolor}
 \usepackage{tikz}
 
 
@@ -67,7 +68,7 @@
 
 
 \medskip
-\large{\textbf{Ayudantía 7}}
+\large{\textbf{Ayudantía 7 - Diferenciación Horizontal y Vertical}}
 
 \end{center}
 
@@ -79,30 +80,93 @@
 
     \subsection{Comentes}
     \begin{itemize}
-    \item[\textbf{a.}] ¿Cuál es la diferencia entre una diferenciación horizontal y vertical?
+    \item[\textbf{a.}] Según los modelos de diferenciación vertical pura la diferencia de precios se deben a una diferencia en los costos marginales de producir bienes de mayor o menor calidad.
     \begin{solution}
-        Una diferenciación horizontal refiere a caracterizarse por medio de características de un mismo producto que no afecten a la calidad. Esto puede ser estética (autos), sabor (cereales), aroma (perfume), y suele ser ejemplificado como la ubicación de venta del producto.
+        Falso, en los modelos de diferenciación vertical pura aunque no hayan diferencias en los costos de producir bienes de menor o mayor calidad habrá una diferenciación. Esto pues que ante máxima diferenciación las firmas que se juegan relajan la competencia por precios.
+    \end{solution}
+    \item[\textbf{b.}] La principal diferencia entre los modelos con y sin localización es que en los modelos sin localización los consumidores tienen utilidad de la variedad de productos, mientras que en los modelos con localización el consumidor compra solamente de apenas una marca (1 ordenador, 1 casa, etc).
+    \begin{solution}
+        Verdadero, cuando vemos Hotelling con diferenciación horizontal estamos utilizando modelos de utilidad discreta.
+        
+          En estos modelos si existen $J$ alternativas en el mercado, indexados por $j = 1, \ldots, J$ el problema del consumidor $i$ se reduce a elegir el que más le brinde utilidad.
+            \[
+            \max_{j,z} U_i(x_j, z) \quad \text{sujeto a} \quad p_j + p_z z = y_i.
+            \]
+            donde:
+            \begin{itemize}
+                \item $x_j$ son las características de la marca $j$, y el precio es $p_j$.
+                \item $z$ es la cantidad de la opción alternativa (outside good) y su precio es $p_z$ (generalmente se normaliza $p_z$ a 1).
+                \item La opción alternativa (que se denota como $j = 0$) es la opción de no comprar (lo que implica que se gasta su ingreso disponible en otros bienes).
+            \end{itemize}
+    \end{solution}
+    \item[\textbf{c.}] ¿Cuál es la diferencia entre una diferenciación horizontal y vertical?
+    \begin{solution}
+        Una diferenciación horizontal refiere distinguirsi explotando diferencias en el producto que no incidan en la calidad del mismo. Esto puede ser estética (autos), sabor (cereales), aroma (perfume), y suele ser ejemplificado como la ubicación de venta del producto.
 
         Por otro lado una diferenciación vertical hace referencia a un espectro de calidad de un mismo producto. Incluso no teniendo diferentes costos de producción las firmas decidirán hacer productos de distinta calidad para disminuir la competencia.
 
-        Al fin y al cabo ambas suelen tener un mismo resultado, las empresas prefieren diferenciarse para relajar la competencia.
+        Ambas suelen tener un mismo resultado, las empresas prefieren diferenciarse para relajar la competencia y acaban obteniendo beneficios positivos aun cuando compiten por precios.
     \end{solution}
-    \item[\textbf{b.}] Al diferenciarse horizontalmente el producto nunca cambia.
+    \item[\textbf{d.}] Al diferenciarse horizontalmente el producto nunca cambia. 
     \begin{solution}
-        Falso. Hay diferenciaciones horizontales que cambian características del producto. 
-
-        Si alguien está en búsqueda de un auto coupé deportivo de alta gama puede encontrarse con un Porsche 911 Carrera o bien con un Chevrolet Corvette Stingray. Mientras un Porsche tiene un diseño más clásico, el Chevrolet tiene un diseño más audaz. 
-
-        Ambos tienen un precio y calidad similar, pero se diferencian en su posicionamiento frente al potencial comprador.
+        Falso. La diferenciación horizontal cambia características del producto. Por ejemplo estos dos modelos valen lo mismo, tienen las mismas funciones, modulos y materiales similares. Aun así apuntan a públicos distintos.
+        \begin{center}
+            \begin{tikzpicture}
+                % Dibuja la línea
+                \draw[blue, thick] (0,0) -- (10,0);
+                
+                % Coloca los puntos y las imágenes
+                \node at (0,0) [below] {\includegraphics[width=2cm]{/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/0.png}};
+                \node at (10,0) [below] {\includegraphics[width=2cm]{/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/1.png}};
+                
+                % Dibuja las líneas verticales en 0 y 1
+                \draw (0,0.1) -- (0,-0.1);
+                \draw (10,0.1) -- (10,-0.1);
+            \end{tikzpicture}
+        \end{center}
+        ¿Por qué una marca introduciría tantos relojes de calidades similares pero con aspectos distintos? pues porque darle en el gusto a las personas aumenta la disposición a pagar, y en caso de competencia puede aumentar el precio que se puede cobrar por sobre el costo marginal.
+        
     \end{solution}
-    \item[\textbf{c.}] El modelo de Salop es lo mismo que el modelo de Hotelling pero asumiendo una ciudad circular.
+
+    \item[\textbf{e.}] Al diferenciarse verticalmente el producto cambia, por ejemplo añadiendo funciones o mejorando la calidad de los materiales. 
+    \begin{solution}
+        Verdadero. La diferenciación vertical cambia características del producto que inciden directamente en su calidad. Estos modelos se diferencian muy poco en aspecto, apuntan al mismo mercado, pero difieren en calidad de materiales y funcionalidades.
+        \begin{center}
+            \begin{tikzpicture}
+                % Dibuja la línea horizontal
+                \draw[blue, thick] (0,0) -- (10,0);
+                
+                % Coloca los puntos y las imágenes en los extremos
+                \node at (0,0) [below] {\includegraphics[width=2cm]{/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/1.png}};
+                \node at (10,0) [below] {\includegraphics[width=2.25cm]{/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/4.png}};
+                
+                % Coloca una imagen en el medio
+                \node at (5,0) [below] {\includegraphics[width=2cm]{/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/3.png}};
+                
+                % Dibuja las líneas verticales en 0, 5, y 10
+                \draw (0,0.1) -- (0,-0.1);
+                \draw (5,0.1) -- (5,-0.1);
+                \draw (10,0.1) -- (10,-0.1);
+                
+                % Coloca los números arriba de cada línea vertical
+                \node at (0,0.2) [above] {\$25.000};
+                \node at (5,0.2) [above] {\$48.000};
+                \node at (10,0.2) [above] {\$95.000};
+                
+            \end{tikzpicture}
+        \end{center}
+        ¿Por qué una marca introduciría tantos relojes de calidades distintas pero con aspectos similares? En un mismo mercado habrán personas que estarán más dispuestas que otras por pagar por calidad. Para obtener mayor excedente de estas personas se mejora la calidad del bien cobrando obvio un mayor precio.
+        
+    \end{solution}
+
+    \item[\textbf{f.}] El modelo de Salop es lo mismo que el modelo de Hotelling pero asumiendo una ciudad circular.
     \begin{solution}
         Falso. El modelo de Salop tiene como objetivo entender la entrada de firmas. Se supone una ciudad circular para dar por sentado que no hay ubicaciones privilegiadas sobre otras, todas las empresas son equidistantes entre sí. 
         \begin{center}
             \includegraphics[width = 5.5cm]{/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/Ciudad-circular-de-Salop.jpg}
         \end{center}
     \end{solution}
-    \item[\textbf{d.}] En un modelo tipo Hotelling con decisiones de localización y luego competencia en precios, ¿Cuáles son las razones a favor y en contra de que las firmas produzcan bienes cada vez más diferenciados?
+    \item[\textbf{g.}] En un modelo tipo Hotelling con decisiones de localización y luego competencia en precios, ¿Cuáles son las razones a favor y en contra de que las firmas produzcan bienes cada vez más diferenciados?
     \begin{solution}
         El efecto de demanda crea incentivos para que las firmas produzcan bienes con poca diferenciación. Cuando las empresas se acercan hacia el centro de la ciudad capturan mayor demanda.
         
@@ -113,7 +177,7 @@
 
 
 
-\subsection{Horizontal pura}
+\subsection{Diferenciación Horizontal Pura}
 Considere una ciudad lineal que va de $0$ a $1$, dos empresas $L$ y $R$ deciden en que parte ubicarse, $\delta _L,\delta_R \in [0,1]$. Ambas ofrecen un productos homogéneos (son sustituibles) y se ofrecen a un precio $p_L, p_R$ según cada firma.\footnote{Lo único diferente de ambos productos son el lugar de la ciudad en que se venden.} Los potenciales consumidores de estas firmas se distribuyen de forma uniforme y los caracteriza la siguiente función de utilidad,
 \begin{equation*}
     U_{ij} = \bar{u} + (y-p_j) - \theta (\delta_j - v_i)^2 \label{función utilidad}
@@ -203,7 +267,7 @@ Siempre que las firmas estén a una misma distancia del centro $p_L = p_R$, por 
     \end{solution}
 \end{enumerate}
 
-\subsection{Vertical pura}
+\subsection{Diferenciación Vertical Pura}
 
 Ahora considere que las empresas no se distinguen en características horizontales de los productos pero pueden decidir en el primer turno la calidad de su producto y en el segundo competir por precios. \vspace{3mm}
 
@@ -263,64 +327,102 @@ gx - p_g & \text{si } i = g
     \end{solution}
     \item[\textbf{c.}] Grafique las funciones de utilidad en función de la calidad para individuos sujeto a que si compran $g$ o $b$. 
     \begin{solution}
-        \begin{tikzpicture}
-
-            % Ejes
-            \draw[->, thick, blue] (-0.5,0) -- (6,0) node[right] {};
-            \draw[->, thick, blue] (0,-4) -- (0,4) node[above] {};
-        
-            % Líneas de utilidad
-            \draw[red, thick] (0,-2) -- (6,2) node[right, red] {$U_x(A)$};
-            \draw[green!60!black, thick] (0,-3) -- (6,3) node[right, green!60!black] {$U_x(B)$};
-        
-            % Puntos relevantes
-            \node at (0,-2) [left, red] {$-p_A$};
-            \node at (0,-3) [left, green!60!black] {$-p_B$};
-            
-        \end{tikzpicture}
+        \begin{center}
+            \includegraphics[width = 5.5cm]{/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/utildiades vertical.png}
+        \end{center}
     \end{solution}
+    \item[\textbf{d.}] Encuentre las funciones de reacción de las firmas dadas las ubicaciones. Suponga que no hay costos marginales. 
+    \begin{solution}
+        Las ubicaciones estarán dadas, tenemos la información del individuo indiferente por lo cual podemos expresar las funciones de reacción de precios en función del precio de la competencia sujeta a las ubicaciones que se hayan tomado. \vspace{3mm}
+
+        La demanda por los bienes de la empresa en $b$ estará dada por los que estén a la izquierda de $\hat{x}$, por lo que $b$ maximiza lo siguiente.
+        \begin{align*}
+            \max_{p_b} \quad \pi_b(p_g;g,b) = p_b \hat{x} = p_b\frac{p_g-p_b}{g-b}
+        \end{align*}
+        Derivamos las condiciones de primer orden con tal de encontrar la función de reacción despejando $p_b$ de la derivada.
+        \begin{align*}
+            \frac{\partial \pi_b}{p_b} = - 2\frac{p_b}{g-b} + \frac{p_g}{g-b} = 0 \\
+            \boxed{p_b = \frac{1}{2}p_g} 
+        \end{align*}
+        Es decir que dadas las diferencias en calidad el productor del producto de menor calidad fijará la mitad de precio que el otro. Por otro lado esta ecuación se mantiene cuando no hay mínima diferenciación, es decir tenemos $g\neq b$. 
+
+        Ahora para sacar la función de reacción de $g$ es análogo. 
+        \begin{align*}
+            \max_{p_g} \quad \pi _g (p_b;g,b) =p_g (1-\hat{x}) = p_g \left( 1 - \frac{p_g-p_b}{g-b}\right) \\
+            \frac{\partial \pi_g}{\partial p_g} = 1 - 2\frac{p_g}{g-b} + \frac{p_b}{g-b} = 0 \\
+            \boxed{p_g = \frac{(g-b)+p_b}{2}}
+        \end{align*}
+    \end{solution}
+    \item[\textbf{e.}] Encuentre el equilibrio de Nash con las funciones de reacción que encontró en el ítem anterior. 
+    \begin{align*}
+        p_b(p_g) = \frac{1}{2}p_g, \qquad p_g(p_b) = \frac{(g-b)+p_b}{2}
+    \end{align*}
+    \begin{solution}
+        Encontremos el precio de la firma de relativa menor calidad.
+        \begin{align*}
+            p_b &= \frac{1}{2}\times \frac{(g-b)+p_b}{2}   = \frac{(g-b)+p_b}{4} \\
+            p_b \times \frac{3}{4} &= \frac{g-b}{4} \\
+            &\boxed{p_b = \frac{1}{3}(g-b)}
+        \end{align*}
+        Entonces podemos obtener directamente el precio de la firma de mayor calidad.
+        \begin{align*}
+            p_g &= \frac{(g-b)}{2} +  \frac{1}{2} \times  \frac{1}{3}(g-b) \\
+            &= \frac{1}{2}(p-g) +  \frac{1}{6}(p-g) \\
+            &\boxed{p_g = \frac{2}{3}(g-b)}
+        \end{align*}
+        La empresa con más alta calidad cobra un precio superior pero ambas empresas colocan un precio por encima del coste marginal. Es decir, relajaron la competencia diferenciandose por lo que obtendrán beneficios.
+    \end{solution}
+    \item[\textbf{f.}] Encuentre la demanda y beneficios en el equilibrio.
+    \begin{solution}
+        La demanda por las firmas dependía del individuo indiferente que a su vez dependía de los precios dadas las ubicaciones. Ahora que tenemos los precios dadas las ubicaciones podemos obtener la demanda reemplazando $\hat{x}$. \vspace{3mm}
+
+        Demanda de $b$.
+        \begin{align*}
+            \hat{x} = \frac{p_g-p_b}{g-b} = \frac{\left(\frac{2}{3}(g-b) -  \frac{1}{3}(g-b) \right)}{g-b} = \frac{\frac{1}{3}(g-b)}{g-b} = \frac{1}{3}\\
+        \end{align*}
+        Por tanto la demanda de $g$ son $2/3$.
+
+        Entonces los beneficios de $\pi_b$ son,
+        \begin{align*}
+            \pi_b &= p_b \hat{x} = \frac{1}{3}(g-b) \times \frac{1}{3} \\
+            & \boxed{\pi_b = \frac{1}{9} (g-b)}
+        \end{align*}
+        De la misma manera encontramos los beneficios de la empresa de relativa mayor calidad.
+        \begin{align*}
+            \pi_g &= p_g(1-\hat{x}) =\frac{2}{3}(g-b) \times \frac{2}{3}\\
+            & \boxed{\pi_g = \frac{4}{9}(g-b)}
+        \end{align*}
+    \end{solution}
+\item[\textbf{g.}] Encuentre las ubicaciones que le conviene a las firmas para maximizar sus beneficios. ¿Le conviene centrarse o diferenciarse? 
+\begin{solution}
+    Por fin llegamos al primer turno. Donde dados los beneficios que están en función de las ubicaciones se puede obtener la ubicación de cada empresa que maximiza los beneficios. 
+    \begin{align*}
+        \max_{b} \quad \pi_b = \frac{1}{9} (g-b)
+    \end{align*}
+    La derivada es negativa, hay que producir con muy baja calidad posible, $b = 0$. Para el caso de la firma de mayor calidad relativa. 
+    \begin{align*}
+        \max_g \quad \pi_g = \frac{4}{9}(g-b)
+    \end{align*}
+    Maximizamos aumentando $g$ por sobre lo máximo posible, entonces $g=1$.
+
+    Acabamos encontrar que las firmas se diferenciarán lo máximo posible para maximizar los beneficios. Una firma producirá la mayor calidad posible y otra la menor calidad posible, ¡aún cuando sean igual de baratos de producir! ($c= 0$)
+\end{solution}
 \end{itemize}
 
 \newpage
 
-\section{Propuestos de discriminación de precios}
+\section*{Propuestos de discriminación de precios}
 
-\subsection{Comentes}
+\subsection*{Comentes}
 
 \begin{itemize}
     \item[\textbf{a.}] ¿Cuál es la diferencia entre discriminación de primer y tercer grado?
-    \begin{solution}
-        En la discriminación de primer grado la firma puede fijar el precio que maximice su excedente dejando nada del excedente al consumidor, conocido como precio de reserva.
-
-        En la discriminación de tercer grado la firma explota las características observables del comprador para cobrar precios diferenciados según el grupo. 
-    \end{solution}
     \item[\textbf{b.}] Caracterice los mercados en los que suele haber discriminación de primer grado y tercer grado. 
-    \begin{solution}
-        En los mercados en donde suele haber discriminación de primer grados son:
-        \begin{itemize}
-            \item Mercados donde el número de compradores (“customers”) es relativamente pequeño y el vendedor posee considerable información sobre los compradores.
-            \item Industrias: concreto fresco, aviones de pasajeros, software especializada para empresas, etc.
-            \item A pesar que existe un precio de lista, cada cliente recibe un descuento que se negocia. Precio final de depende de la disposición a pagar del cliente y su poder de negociación.
-        \end{itemize}
-        Por otro lado los mercados donde suele haber discriminación de tercer grado son mercados más grandes donde los costos de información son mayores, por ejemplo los pasajes del transporte público. 
-    \end{solution}
     \item[\textbf{c.}] Es imposible que una firma monopólica logre captar todo el excedente del consumidor, puesto que los precios y la estrategia que impongan dependerán también de factores como la elasticidad de la demanda.
-    \begin{solution}
-        Es verdad que en la práctica es difícil que se logre captar todo el excedente, pero si el monopolio tiene información perfecta sobre la disposición a pagar de los consumidores podría imponer una estrategia de discriminación de precios en primer grado, donde cada individuo paga el máximo que está dispuesto por el producto en cuestión, generando que el excedente sea nulo para los consumidores y la firma se lleve todo el excedente del mercado.
-    \end{solution}
     \item[\textbf{d.}] ¿Discriminar o no discriminar? Discuta los principios básicos para responder esta pregunta.
-    \begin{solution}
-    Cualquier baja en la producción suele llevar a que el \textbf{bienestar total} baje. Discriminación que aumenta la demanda del producto/servicio suele aumentar el bienestar (TNE por ejemplo), no hay consumidor más triste como el que no consume. 
-        \begin{itemize}
-            \item Si la producción total cae con la discriminación, el bienestar total disminuye.
-            \item Si un monopolista que no discrimina cierra un mercado, es mejor discriminar.
-        \end{itemize}
-    \end{solution}
     \end{itemize}
 
-\subsection{Matemático: Discriminación de tercer grado}
-
-
+\subsection*{Matemático: Discriminación de tercer grado}
 
 En un pueblo del sur de Chile hay un único museo recibe a visitantes nacionales y extranjeros, quienes presentan una mayor valoración del museo. El costo marginal de producción del museo es 1 por cada visitante y no hay costos fijos. Las demandas de extranjeros y nacionales será,
 \begin{align*}
@@ -329,90 +431,10 @@ En un pueblo del sur de Chile hay un único museo recibe a visitantes nacionales
 \end{align*}
 \begin{itemize}
     \item[\textbf{a.}] Suponga uqe el museo monopólico fija un precio uniforme, ¿Qué precio cobra y qué beneficio obtiene? ¿Qué condición debe cumplirse para que se venda a ambos grupos?
-    \begin{solution}
-        La firma maximiza beneficios sobre la demanda agregada,
-        \begin{equation*}
-            Q_T = 18-2P
-        \end{equation*}
-        El museo resuelve,
-        \begin{align*}
-            \max_{P} & \quad \Pi = (P-c)(18-2P) \\
-            \textbf{CPO:} & \\
-            \frac{\partial \Pi}{\partial P} & = 18-4P + 2c = 0 \\
-            P_U &= 5
-        \end{align*}
-        Por lo que los beneficios serán:
-        \begin{align*}
-            \Pi = (5-1)(18-2\cdot 5) = 32
-        \end{align*}
-        Para que se les venda a ambos grupos hemos de encontrar la condición de participación. La condición de restricción a la participación la encontramos evaluando a qué precio el grupo de menor valoración no consumiría. Como las demanda del grupo de nacionales, los cuales con precios mayores a 8 no demandarían ninguna entrada. 
-    \end{solution}
     \item[\textbf{b.}] Suponga ahora que el monopolio puede discriminar en tercer grado. Calcule los precios de cada mercado y los beneficios del museo.
-    \begin{solution}
-        Para los extranjeros el museo resuelve este problema,
-        \begin{align*}
-            \max_{P_{E}} \quad & \pi_E = (P_E-c)(10-P_E) \\
-            & \frac{\partial  \pi_E}{\partial P_E} = 10 - 2P_E + c = 0 \\
-            & P_E = \frac{10+c}{2} = 5,5
-        \end{align*}
-        Los beneficios del museo cobrando a los extranjeros son, 
-        \begin{align*}
-            \pi_E = (5,5-1)(10-5,5) = 20,25
-        \end{align*}
-        El museo resuelve de la misma manera sobre la demanda de los nacionales,
-        \begin{align*}
-            \max_{P_N} \quad & \pi_N = (P_N-c)(8-P_N) \\
-            & \frac{\partial \pi_N}{\partial P_N} = 8-2P_N + c = 0 \\
-            & P_N = \frac{8+c}{2} = 4,5
-        \end{align*}
-        Los beneficios del museo cobrándole a los nacionales será,
-        \begin{align*}
-            \pi_N = (4,5-1)(8-4,5) = 12,25
-        \end{align*}
-        Los beneficios totales serán,
-        \begin{align*}
-            \Pi = \pi_N + \pi_E = 32,5
-        \end{align*}
-    \end{solution}
     \item[\textbf{c.}] Un compañero le menciona que el museo debería enfocarse solo en el grupo de alta valoración. Demuéstrele al compañero que al museo no le conviene enfocarse solo en una parte del mercado, cuando tiene la opción de discriminar precios. 
-    \begin{solution}
-        Si el museo solo se enfocará en los extranjeros fijaría un precio en que solo los extranjeros demanden una cantidad positiva ($P = 8$). Los beneficios serían entonces,
-        \begin{equation*}
-            \pi_E = (8-1)(10-8) = 14
-        \end{equation*}
-        Lo cuál es bastante menor que al no discriminar o discriminar a un tercer grado. 
-    \end{solution}
     \item[\textbf{d.}] Comparando los beneficios del monopolio con la estrategia de precio uniforme y de discriminación ¿Cuál le conviene más? Además, calcule los excedentes de los consumidores extranjeros y nacionales ¿Cuál grupo se beneficia de la discriminación de tercer y cuál se perjudica?
-    \begin{solution}
-        Anteriormente obtuvimos que al discriminar la firma tiene un aumento marginal en los beneficios, está mejor discriminando en tercer grado. 
-
-        Para calcular el excedente de los consumidores comparamos las situaciones con precio uniforme y precio diferenciado para cada tipo de consumidor. 
-
-        Para extranjeros el excedente en cada situación será:
-        \begin{align*}
-            EC^U_E &= \frac{5(10-5)}{2} = 12,5 \\
-            EC^D_E &= \frac{4,5 (10-5,5)}{2} = 10,125
-        \end{align*}
-        Para los nacionales se tiene,
-        \begin{align*}
-            EC^U_N &= \frac{3(8-5)}{2} = 4,5 \\
-            EC^D_N &= \frac{3,5(8-4,5)}{2} = 6,125
-        \end{align*}
-        El grupo de mayor valoración sale perjudicado mientras que el de menor valoración está mejor siendo discriminado. En cuanto a excedente total los consumidores están peor con discriminación. 
-    \end{solution}
     \item[\textbf{e.}] ¿Qué pasa con el beneficio social? Calcule también el producto total ofrecido en cada estrategia y comente su relación con los cambios en bienestar o ineficiencias que puedan estar ocurriendo. ¿Qué otros factores explican los cambios en bienestar al pasar de una estrategia a otra?
-    \begin{solution}
-        El beneficio social para cada estrategia corresponda a:
-        \begin{align*}
-            ES^U &= \Pi^U + EC^U = 32+17 =49 \\
-            ES^D &= \Pi^D + EC^D = 32,5 +16,25 = 48,75
-        \end{align*}
-        Se concluye que en este caso el bienestar social no aumenta con la discriminación de precios. La producción total de cada estrategia es:
-        \begin{align*}
-            Q^U &= 18-2P = 8 \\
-            Q^D &= Q_E^D + Q_N^D = (10-5,5) + (8-4,5) = 4,5 +3,5 = 8
-        \end{align*}
-    \end{solution}
 \end{itemize}
 
 \end{document}

@@ -1,0 +1,134 @@
+
+\section{Propuestos de discriminación de precios}
+
+\subsection{Comentes}
+
+\begin{itemize}
+    \item[\textbf{a.}] ¿Cuál es la diferencia entre discriminación de primer y tercer grado?
+    \begin{solution}
+        En la discriminación de primer grado la firma puede fijar el precio que maximice su excedente dejando nada del excedente al consumidor, conocido como precio de reserva.
+
+        En la discriminación de tercer grado la firma explota las características observables del comprador para cobrar precios diferenciados según el grupo. 
+    \end{solution}
+    \item[\textbf{b.}] Caracterice los mercados en los que suele haber discriminación de primer grado y tercer grado. 
+    \begin{solution}
+        En los mercados en donde suele haber discriminación de primer grados son:
+        \begin{itemize}
+            \item Mercados donde el número de compradores (“customers”) es relativamente pequeño y el vendedor posee considerable información sobre los compradores.
+            \item Industrias: concreto fresco, aviones de pasajeros, software especializada para empresas, etc.
+            \item A pesar que existe un precio de lista, cada cliente recibe un descuento que se negocia. Precio final de depende de la disposición a pagar del cliente y su poder de negociación.
+        \end{itemize}
+        Por otro lado los mercados donde suele haber discriminación de tercer grado son mercados más grandes donde los costos de información son mayores, por ejemplo los pasajes del transporte público. 
+    \end{solution}
+    \item[\textbf{c.}] Es imposible que una firma monopólica logre captar todo el excedente del consumidor, puesto que los precios y la estrategia que impongan dependerán también de factores como la elasticidad de la demanda.
+    \begin{solution}
+        Es verdad que en la práctica es difícil que se logre captar todo el excedente, pero si el monopolio tiene información perfecta sobre la disposición a pagar de los consumidores podría imponer una estrategia de discriminación de precios en primer grado, donde cada individuo paga el máximo que está dispuesto por el producto en cuestión, generando que el excedente sea nulo para los consumidores y la firma se lleve todo el excedente del mercado.
+    \end{solution}
+    \item[\textbf{d.}] ¿Discriminar o no discriminar? Discuta los principios básicos para responder esta pregunta.
+    \begin{solution}
+    Cualquier baja en la producción suele llevar a que el \textbf{bienestar total} baje. Discriminación que aumenta la demanda del producto/servicio suele aumentar el bienestar (TNE por ejemplo), no hay consumidor más triste como el que no consume. 
+        \begin{itemize}
+            \item Si la producción total cae con la discriminación, el bienestar total disminuye.
+            \item Si un monopolista que no discrimina cierra un mercado, es mejor discriminar.
+        \end{itemize}
+    \end{solution}
+    \end{itemize}
+
+\subsection{Matemático: Discriminación de tercer grado}
+
+
+
+En un pueblo del sur de Chile hay un único museo recibe a visitantes nacionales y extranjeros, quienes presentan una mayor valoración del museo. El costo marginal de producción del museo es 1 por cada visitante y no hay costos fijos. Las demandas de extranjeros y nacionales será,
+\begin{align*}
+    Q_E = 10-P_E \\
+    Q_N = 8 - P_N
+\end{align*}
+\begin{itemize}
+    \item[\textbf{a.}] Suponga uqe el museo monopólico fija un precio uniforme, ¿Qué precio cobra y qué beneficio obtiene? ¿Qué condición debe cumplirse para que se venda a ambos grupos?
+    \begin{solution}
+        La firma maximiza beneficios sobre la demanda agregada,
+        \begin{equation*}
+            Q_T = 18-2P
+        \end{equation*}
+        El museo resuelve,
+        \begin{align*}
+            \max_{P} & \quad \Pi = (P-c)(18-2P) \\
+            \textbf{CPO:} & \\
+            \frac{\partial \Pi}{\partial P} & = 18-4P + 2c = 0 \\
+            P_U &= 5
+        \end{align*}
+        Por lo que los beneficios serán:
+        \begin{align*}
+            \Pi = (5-1)(18-2\cdot 5) = 32
+        \end{align*}
+        Para que se les venda a ambos grupos hemos de encontrar la condición de participación. La condición de restricción a la participación la encontramos evaluando a qué precio el grupo de menor valoración no consumiría. Como las demanda del grupo de nacionales, los cuales con precios mayores a 8 no demandarían ninguna entrada. 
+    \end{solution}
+    \item[\textbf{b.}] Suponga ahora que el monopolio puede discriminar en tercer grado. Calcule los precios de cada mercado y los beneficios del museo.
+    \begin{solution}
+        Para los extranjeros el museo resuelve este problema,
+        \begin{align*}
+            \max_{P_{E}} \quad & \pi_E = (P_E-c)(10-P_E) \\
+            & \frac{\partial  \pi_E}{\partial P_E} = 10 - 2P_E + c = 0 \\
+            & P_E = \frac{10+c}{2} = 5,5
+        \end{align*}
+        Los beneficios del museo cobrando a los extranjeros son, 
+        \begin{align*}
+            \pi_E = (5,5-1)(10-5,5) = 20,25
+        \end{align*}
+        El museo resuelve de la misma manera sobre la demanda de los nacionales,
+        \begin{align*}
+            \max_{P_N} \quad & \pi_N = (P_N-c)(8-P_N) \\
+            & \frac{\partial \pi_N}{\partial P_N} = 8-2P_N + c = 0 \\
+            & P_N = \frac{8+c}{2} = 4,5
+        \end{align*}
+        Los beneficios del museo cobrándole a los nacionales será,
+        \begin{align*}
+            \pi_N = (4,5-1)(8-4,5) = 12,25
+        \end{align*}
+        Los beneficios totales serán,
+        \begin{align*}
+            \Pi = \pi_N + \pi_E = 32,5
+        \end{align*}
+    \end{solution}
+    \item[\textbf{c.}] Un compañero le menciona que el museo debería enfocarse solo en el grupo de alta valoración. Demuéstrele al compañero que al museo no le conviene enfocarse solo en una parte del mercado, cuando tiene la opción de discriminar precios. 
+    \begin{solution}
+        Si el museo solo se enfocará en los extranjeros fijaría un precio en que solo los extranjeros demanden una cantidad positiva ($P = 8$). Los beneficios serían entonces,
+        \begin{equation*}
+            \pi_E = (8-1)(10-8) = 14
+        \end{equation*}
+        Lo cuál es bastante menor que al no discriminar o discriminar a un tercer grado. 
+    \end{solution}
+    \item[\textbf{d.}] Comparando los beneficios del monopolio con la estrategia de precio uniforme y de discriminación ¿Cuál le conviene más? Además, calcule los excedentes de los consumidores extranjeros y nacionales ¿Cuál grupo se beneficia de la discriminación de tercer y cuál se perjudica?
+    \begin{solution}
+        Anteriormente obtuvimos que al discriminar la firma tiene un aumento marginal en los beneficios, está mejor discriminando en tercer grado. 
+
+        Para calcular el excedente de los consumidores comparamos las situaciones con precio uniforme y precio diferenciado para cada tipo de consumidor. 
+
+        Para extranjeros el excedente en cada situación será:
+        \begin{align*}
+            EC^U_E &= \frac{5(10-5)}{2} = 12,5 \\
+            EC^D_E &= \frac{4,5 (10-5,5)}{2} = 10,125
+        \end{align*}
+        Para los nacionales se tiene,
+        \begin{align*}
+            EC^U_N &= \frac{3(8-5)}{2} = 4,5 \\
+            EC^D_N &= \frac{3,5(8-4,5)}{2} = 6,125
+        \end{align*}
+        El grupo de mayor valoración sale perjudicado mientras que el de menor valoración está mejor siendo discriminado. En cuanto a excedente total los consumidores están peor con discriminación. 
+    \end{solution}
+    \item[\textbf{e.}] ¿Qué pasa con el beneficio social? Calcule también el producto total ofrecido en cada estrategia y comente su relación con los cambios en bienestar o ineficiencias que puedan estar ocurriendo. ¿Qué otros factores explican los cambios en bienestar al pasar de una estrategia a otra?
+    \begin{solution}
+        El beneficio social para cada estrategia corresponda a:
+        \begin{align*}
+            ES^U &= \Pi^U + EC^U = 32+17 =49 \\
+            ES^D &= \Pi^D + EC^D = 32,5 +16,25 = 48,75
+        \end{align*}
+        Se concluye que en este caso el bienestar social no aumenta con la discriminación de precios. La producción total de cada estrategia es:
+        \begin{align*}
+            Q^U &= 18-2P = 8 \\
+            Q^D &= Q_E^D + Q_N^D = (10-5,5) + (8-4,5) = 4,5 +3,5 = 8
+        \end{align*}
+    \end{solution}
+\end{itemize}
+
+\end{document}

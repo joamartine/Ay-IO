@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1728424469 "A7.xdv" "A7.pdf" "A7" 1728424469 0
-  "A7.xdv" 1728424794 167640 b1c46a6fccd44150f4a6fa27381c04b2 "xelatex"
+["xdvipdfmx"] 1728434083 "A7.xdv" "A7.pdf" "A7" 1728434085 0
+  "A7.xdv" 1728434083 188704 510cfa1533345015e3ea7def81111e3a "xelatex"
   (generated)
   "A7.pdf"
   (rewritten before read)
-["xelatex"] 1728424793 "/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex" "A7.xdv" "A7" 1728424794 2
+["xelatex"] 1728434082 "/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex" "A7.xdv" "A7" 1728434085 0
   "/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png" 1719245316 8833 b074438d4be8648208d989c49260e42a ""
-  "/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex" 1728424756 23704 f1750316e5ccaf0e3d2133e1ccb6831b ""
+  "/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex" 1728434081 26728 9e8995af1d0966da6f09cc1f0fef0e9e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -189,11 +189,16 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1689449478 10502842 e1a6dcd2a99f9966b7e28647342e86a8 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "A7.aux" 1728424794 2001 7e3f281d640e76cc2716a0c8a21218a0 "xelatex"
-  "A7.out" 1728424794 1174 e1ca61f448813d426c428e5a554adbbe "xelatex"
-  "A7.tex" 1728424756 23704 f1750316e5ccaf0e3d2133e1ccb6831b ""
-  "A7.toc" 1728424794 627 bd8caf974e245344124fa85727df80ad "xelatex"
+  "0.png" 1728430080 225908 5279027df2b8ab4ea4b586960ec9890f ""
+  "1.png" 1728430444 164900 437cfed1f41978c81eff49416f03d590 ""
+  "3.png" 1728431620 289338 6c56fa66f25a573b13f5db88e4cb569e ""
+  "4.png" 1728431636 272347 ae56c3bd643b8dc9e4453a5fe5e6bca5 ""
+  "A7.aux" 1728434083 1662 eabf939789ce504977fcb595c141f677 "xelatex"
+  "A7.out" 1728434083 701 5ef5dc1ab4e4b0928503b92f45aacdbc "xelatex"
+  "A7.tex" 1728434081 26728 9e8995af1d0966da6f09cc1f0fef0e9e ""
+  "A7.toc" 1728434083 379 c6478094f438ab0c7641e4cc0fa5c920 "xelatex"
   "Ciudad-circular-de-Salop.jpg" 1728420293 49700 8e25c9166cef8fe07c9f2f196fdc63bb ""
+  "utildiades vertical.png" 1728426119 24427 718c996aa59642dc26eef9a6693dc684 ""
   (generated)
   "A7.aux"
   "A7.log"

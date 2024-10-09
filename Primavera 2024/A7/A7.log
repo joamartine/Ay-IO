@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.15)  8 OCT 2024 18:59
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.15)  8 OCT 2024 21:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -487,7 +487,23 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip90
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 30.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks41
 \pgfutil@tempdima=\dimen181
 \pgfutil@tempdimb=\dimen182
@@ -543,23 +559,7 @@ File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@bigbuffer@items=\count354
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: xetex.def on input line 227.
-LaTeX Info: Redefining \color on input line 711.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `RGB' extended on input line 1369.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen193
@@ -820,107 +820,123 @@ File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
 \g__pdf_backend_link_int=\count377
 ))
 Package: xparse 2023-02-02 L3 Experimental document command parser
-)) (./A7.aux)
+)) (./A7.aux
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+)
 \openout1 = `A7.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 58.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 58.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 59.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 59.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 59.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 58.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 59.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 59.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 58.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 59.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 59.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 58.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 59.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 59.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
-LaTeX Info: Command `\dddot' is already robust on input line 58.
-LaTeX Info: Command `\ddddot' is already robust on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+LaTeX Info: Command `\dddot' is already robust on input line 59.
+LaTeX Info: Command `\ddddot' is already robust on input line 59.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 58.
+Package hyperref Info: Link coloring ON on input line 59.
+ (./A7.out) (./A7.out)
 \@outlinefile=\write5
 \openout5 = `A7.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 66.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 67.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 66.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 67.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 66.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 67.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 66.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 67.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+) (./A7.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 )
-No file A7.toc.
 \tf@toc=\write6
 \openout6 = `A7.toc'.
 
-File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/Ciudad-circular-de-Salop.jpg Graphic file (type bmp)
-</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/Ciudad-circular-de-Salop.jpg>
 File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
 </Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
-[1
+ [1
 
 ]
+File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/0.png Graphic file (type bmp)
+</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/0.png>
+File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/1.png Graphic file (type bmp)
+</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/1.png>
+File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/1.png Graphic file (type bmp)
+</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/1.png>
+File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/4.png Graphic file (type bmp)
+</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/4.png>
+File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/3.png Graphic file (type bmp)
+</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/3.png>
+
+Underfull \vbox (badness 3668) detected at line 160
+ []
+
 File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
 </Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
- [2]
+[2]
+File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/Ciudad-circular-de-Salop.jpg Graphic file (type bmp)
+</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/Ciudad-circular-de-Salop.jpg>
 File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
 </Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
  [3]
@@ -930,314 +946,18 @@ File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic 
 File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
 </Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
  [5]
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Argument of \language@active@arg> has an extra }.
-<inserted text> 
-                \par 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
+File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
+</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
+ [6]
+File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/utildiades vertical.png Graphic file (type bmp)
+</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/utildiades vertical.png>
 
-Runaway argument?
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Paragraph ended before \language@active@arg> was complete.
-<to be read again> 
-                   \par 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Extra }, or forgotten \endgroup.
-\tikz@key ->-{\@@par }
-                      
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Extra \endcsname.
-\pgfutil@doifcolorelse ...ng \color@ #1\endcsname 
-                                                  \relax \let \pgf@next =\pg...
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-I'm ignoring this, since I wasn't doing a \csname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:269: Extra \endcsname.
-\pgfsetarrowsend ...@direct@name@end@#1\endcsname 
-                                                  \ifx \pgf@arrows@direct \r...
-l.269             \draw[->, thick, blue]
-                                         (-0.5,0) -- (6,0) node[right] {};
-I'm ignoring this, since I wasn't doing a \csname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Argument of \language@active@arg> has an extra }.
-<inserted text> 
-                \par 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Paragraph ended before \language@active@arg> was complete.
-<to be read again> 
-                   \par 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Extra }, or forgotten \endgroup.
-\tikz@key ->-{\@@par }
-                      
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Extra \endcsname.
-\pgfutil@doifcolorelse ...ng \color@ #1\endcsname 
-                                                  \relax \let \pgf@next =\pg...
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-I'm ignoring this, since I wasn't doing a \csname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Missing \endcsname inserted.
-<to be read again> 
-                   \scan_stop: 
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-/Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/A7.tex:270: Extra \endcsname.
-\pgfsetarrowsend ...@direct@name@end@#1\endcsname 
-                                                  \ifx \pgf@arrows@direct \r...
-l.270             \draw[->, thick, blue]
-                                         (0,-4) -- (0,4) node[above] {};
-I'm ignoring this, since I wasn't doing a \csname.
+Underfull \vbox (badness 10000) detected at line 333
+ []
 
 File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
 </Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
-[6]
-File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
-</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
- [7]
+[7]
 File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
 </Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
  [8]
@@ -1247,33 +967,24 @@ File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic 
 File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
 </Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
  [10]
+File: /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png Graphic file (type bmp)
+</Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png>
+ [11]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
-
-Class exam Warning: Point totals have changed. Rerun to get point totals right.
-
 (./A7.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `A7.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `A7.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  E1CA61F448813D426C428E5A554ADBBE;1174.
+Package rerunfilecheck Info: File `A7.out' has not changed.
+(rerunfilecheck)             Checksum: 5EF5DC1AB4E4B0928503B92F45AACDBC;701.
  ) 
 Here is how much of TeX's memory you used:
- 27589 strings out of 476683
- 492880 string characters out of 5804047
- 1863018 words of memory out of 5000000
- 47340 multiletter control sequences out of 15000+600000
- 545250 words of font info for 105 fonts, out of 8000000 for 9000
+ 27619 strings out of 476683
+ 495276 string characters out of 5804047
+ 1864018 words of memory out of 5000000
+ 47363 multiletter control sequences out of 15000+600000
+ 545226 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,19n,89p,570b,730s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,19n,80p,570b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on A7.xdv (10 pages, 167640 bytes).
+Output written on A7.xdv (11 pages, 188704 bytes).

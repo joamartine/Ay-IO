@@ -686,6 +686,25 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -772,24 +791,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysproto
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
@@ -1058,6 +1059,16 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
+INPUT ./A7.out
+INPUT A7.out
+INPUT ./A7.out
+INPUT A7.out
+INPUT ./A7.out
+INPUT A7.out
+INPUT ./A7.out
+INPUT A7.out
+INPUT ./A7.out
+INPUT ./A7.out
 OUTPUT A7.out
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -1133,14 +1144,35 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT ./A7.toc
+INPUT A7.toc
+INPUT A7.toc
 OUTPUT A7.toc
-INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/Ciudad-circular-de-Salop.jpg
-INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/Ciudad-circular-de-Salop.jpg
-INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/Ciudad-circular-de-Salop.jpg
 INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
 INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
 INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
 OUTPUT A7.xdv
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/0.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/0.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/0.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/1.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/1.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/1.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/1.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/1.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/1.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/4.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/4.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/4.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/3.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/3.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/3.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/Ciudad-circular-de-Salop.jpg
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/Ciudad-circular-de-Salop.jpg
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/Ciudad-circular-de-Salop.jpg
 INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
 INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
 INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
@@ -1153,6 +1185,9 @@ INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
 INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
 INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
 INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/utildiades vertical.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/utildiades vertical.png
+INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Primavera 2024/A7/utildiades vertical.png
 INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
 INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
 INPUT /Users/joaquin/Documents/GitHub/Ayudant-as-IO/Imágenes/Logo2.png
